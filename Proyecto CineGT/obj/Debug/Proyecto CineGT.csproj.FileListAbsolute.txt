@@ -1,0 +1,15 @@
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe.config
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\Proyecto CineGT.pdb
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\System.Data.SqlClient.dll
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\bin\Debug\System.Data.SqlClient.xml
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.AssemblyReference.cache
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Form1.resources
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Properties.Resources.resources
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.GenerateResource.cache
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CoreCompileInputs.cache
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CopyComplete
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.exe
+C:\Users\maron\source\repos\Proyecto CineGT\Proyecto CineGT\obj\Debug\Proyecto CineGT.pdb
