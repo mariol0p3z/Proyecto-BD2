@@ -28,8 +28,12 @@ namespace Proyecto_CineGT
                 using (SqlConnection conexion = new SqlConnection(cnn))
                 {
                     conexion.Open();
-                    using (SqlCommand cmd = new SqlCommand("SELECT usuarioNombre, contraseña from usuario WHERE usuarioNombre = '" + txtUsuario.Text + "' AND contraseña = '" + txtPassword.Text + "'", conexion))
+                    using (SqlCommand cmd = new SqlCommand())
                     {
+                        cmd.Connection = conexion;
+                        cmd.CommandText = "SELECT usuarioNombre, contraseña from usuario WHERE usuarioNombre = @usuario and contraseña = @password";
+                        cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
+                        cmd.Parameters.AddWithValue("@password", txtPassword.Text);
                         SqlDataReader lector = cmd.ExecuteReader();
                         if (lector.Read())
                         {
