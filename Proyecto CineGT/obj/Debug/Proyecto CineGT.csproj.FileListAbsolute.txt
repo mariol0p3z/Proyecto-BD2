@@ -28,3 +28,4 @@ C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto Cine
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CopyComplete
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.exe
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.pdb
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroUser.resources

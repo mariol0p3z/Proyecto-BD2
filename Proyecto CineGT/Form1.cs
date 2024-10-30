@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Configuration;
+using System.Security.Cryptography;
 
 namespace Proyecto_CineGT
 {
@@ -17,6 +18,14 @@ namespace Proyecto_CineGT
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private byte[] CifrarSha256(string input)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                return sha256.ComputeHash(Encoding.Unicode.GetBytes(input));
+            }
         }
 
         private void btnIncioSesion_Click(object sender, EventArgs e)
@@ -31,9 +40,11 @@ namespace Proyecto_CineGT
                     using (SqlCommand cmd = new SqlCommand())
                     {
                         cmd.Connection = conexion;
-                        cmd.CommandText = "SELECT usuarioNombre, contraseña from usuario WHERE usuarioNombre = @usuario and contraseña = @password";
+                        cmd.CommandText = "SELECT usuarioNombre from usuario WHERE usuarioNombre = @usuario and contraseña = @password";
+                        byte[] passwordhashed = CifrarSha256(txtPassword.Text);
+                        Console.WriteLine(BitConverter.ToString(passwordhashed));
                         cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
-                        cmd.Parameters.AddWithValue("@password", txtPassword.Text);
+                        cmd.Parameters.AddWithValue("@password", passwordhashed);
                         SqlDataReader lector = cmd.ExecuteReader();
                         if (lector.Read())
                         {
@@ -55,6 +66,13 @@ namespace Proyecto_CineGT
                 MessageBox.Show(ex.ToString());
             }
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RegistroUser registro = new RegistroUser();
+            registro.Show();
+            this.Hide();
         }
     }
 }

@@ -33,6 +33,7 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnIncioSesion = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -78,11 +79,23 @@
             this.btnIncioSesion.UseVisualStyleBackColor = true;
             this.btnIncioSesion.Click += new System.EventHandler(this.btnIncioSesion_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(155, 244);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(85, 16);
+            this.linkLabel1.TabIndex = 5;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Crear Cuenta";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 263);
+            this.ClientSize = new System.Drawing.Size(430, 309);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnIncioSesion);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
@@ -102,6 +115,7 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnIncioSesion;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 
