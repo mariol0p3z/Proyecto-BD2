@@ -1,0 +1,13 @@
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\bin\Debug\prueba_sala.exe.config
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\bin\Debug\prueba_sala.exe
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\bin\Debug\prueba_sala.pdb
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.csproj.AssemblyReference.cache
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.csproj.SuggestedBindingRedirects.cache
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.CompraBoletos.resources
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.Form1.resources
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.PagoPelicula.resources
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.Properties.Resources.resources
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.csproj.GenerateResource.cache
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.csproj.CoreCompileInputs.cache
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.exe
+C:\Users\driva\Desktop\ProyectoBDII\prueba_sala\prueba_sala\obj\Debug\prueba_sala.pdb
