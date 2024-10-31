@@ -27,11 +27,9 @@ namespace Proyecto_CineGT
                 using (SqlConnection conexion = new SqlConnection(cnn))
                 {
                     conexion.Open();
-                    using (SqlCommand cmd = new SqlCommand())
+                    using (SqlCommand cmd = new SqlCommand("sp_insertar_pelicula", conexion))
                     {
-                        cmd.Connection = conexion;
-                        cmd.CommandText = "INSERT INTO pelicula (nombre, duracion, descripcion, clasificacion_id)"
-                            + "SELECT @Nombre, @Duracion, @Descripcion, c.clasificacion_id from clasificacion c where c.Tclasificacion = @Tclasificacion";
+                        cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@Nombre", txtNombre.Text);
                         cmd.Parameters.AddWithValue("@Duracion", txtDuracion.Text);
                         cmd.Parameters.AddWithValue("@Descripcion", txtDescripcion.Text);
