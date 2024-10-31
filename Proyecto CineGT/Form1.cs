@@ -42,7 +42,6 @@ namespace Proyecto_CineGT
                         cmd.Connection = conexion;
                         cmd.CommandText = "SELECT usuarioNombre from usuario WHERE usuarioNombre = @usuario and contraseña = @password";
                         byte[] passwordhashed = CifrarSha256(txtPassword.Text);
-                        Console.WriteLine(BitConverter.ToString(passwordhashed));
                         cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
                         cmd.Parameters.AddWithValue("@password", passwordhashed);
                         SqlDataReader lector = cmd.ExecuteReader();
