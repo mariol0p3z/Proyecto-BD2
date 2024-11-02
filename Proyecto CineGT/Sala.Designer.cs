@@ -86,10 +86,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(105, 290);
+            this.dataGridView1.Location = new System.Drawing.Point(43, 271);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(785, 378);
+            this.dataGridView1.Size = new System.Drawing.Size(1065, 313);
             this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label1
             // 
@@ -102,7 +103,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(437, 721);
+            this.button1.Location = new System.Drawing.Point(580, 604);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 29);
             this.button1.TabIndex = 7;
@@ -113,7 +114,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 786);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1179, 786);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
