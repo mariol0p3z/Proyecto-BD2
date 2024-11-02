@@ -37,10 +37,9 @@ namespace Proyecto_CineGT
                 using (SqlConnection conexion = new SqlConnection(cnn))
                 {
                     conexion.Open();
-                    using (SqlCommand cmd = new SqlCommand())
+                    using (SqlCommand cmd = new SqlCommand("sp_login", conexion))
                     {
-                        cmd.Connection = conexion;
-                        cmd.CommandText = "SELECT usuarioNombre from usuario WHERE usuarioNombre = @usuario and contraseña = @password";
+                        cmd.CommandType = CommandType.StoredProcedure;
                         byte[] passwordhashed = CifrarSha256(txtPassword.Text);
                         cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
                         cmd.Parameters.AddWithValue("@password", passwordhashed);
