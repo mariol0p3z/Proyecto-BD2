@@ -31,3 +31,22 @@ C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto Cine
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroUser.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroPeliculas.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuUser.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe.config
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.pdb
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.dll
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.xml
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.AssemblyReference.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.SuggestedBindingRedirects.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Form1.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuUser.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Properties.Resources.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroPeliculas.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroUser.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.GenerateResource.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CoreCompileInputs.cache
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CopyComplete
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.exe
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.pdb
