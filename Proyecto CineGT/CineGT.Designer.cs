@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_CineGT
 {
-    partial class Form1
+    partial class CineGT
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CineGT));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -86,6 +86,8 @@
             // btnIncioSesion
             // 
             this.btnIncioSesion.BackColor = System.Drawing.Color.Transparent;
+            this.btnIncioSesion.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnIncioSesion.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnIncioSesion.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIncioSesion.Location = new System.Drawing.Point(275, 313);
             this.btnIncioSesion.Margin = new System.Windows.Forms.Padding(2);
@@ -128,7 +130,7 @@
             this.linkLabel2.Size = new System.Drawing.Size(0, 13);
             this.linkLabel2.TabIndex = 7;
             // 
-            // Form1
+            // CineGT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -142,8 +144,9 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "CineGT";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

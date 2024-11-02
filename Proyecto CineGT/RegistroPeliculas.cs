@@ -47,5 +47,12 @@ namespace Proyecto_CineGT
                 MessageBox.Show(ex.Message.ToString());
             }
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            MenuUser menuser = new MenuUser();
+            menuser.Show();
+            this.Close();
+        }
     }
 }

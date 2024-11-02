@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto_CineGT
 {
-    public partial class MenuUser : Form
+    public partial class PreVenta : Form
     {
-        public MenuUser()
+        public PreVenta()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            RegistroPeliculas pelicula = new RegistroPeliculas();
-            pelicula.Show();
-        }
-
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            CineGT cine = new CineGT();
-            cine.Show();
+            MenuUser menuser = new MenuUser();
+            menuser.Show();
             this.Close();
         }
     }

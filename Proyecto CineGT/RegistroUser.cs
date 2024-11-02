@@ -75,7 +75,7 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            Form1 inicio = new Form1();
+            CineGT inicio = new CineGT();
             inicio.Show();
             this.Close();
         }

@@ -13,9 +13,9 @@ using System.Security.Cryptography;
 
 namespace Proyecto_CineGT
 {
-    public partial class Form1 : Form
+    public partial class CineGT : Form
     {
-        public Form1()
+        public CineGT()
         {
             InitializeComponent();
         }
