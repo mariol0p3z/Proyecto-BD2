@@ -53,11 +53,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CancelacionBoletos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelacionBoletos.Designer.cs">
+      <DependentUpon>CancelacionBoletos.cs</DependentUpon>
+    </Compile>
     <Compile Include="CineGT.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CineGT.Designer.cs">
       <DependentUpon>CineGT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EdicionBoletos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdicionBoletos.Designer.cs">
+      <DependentUpon>EdicionBoletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuUser.cs">
       <SubType>Form</SubType>
@@ -90,6 +108,12 @@
     </Compile>
     <Compile Include="Sala.Designer.cs">
       <DependentUpon>Sala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerPeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerPeliculas.Designer.cs">
+      <DependentUpon>VerPeliculas.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CineGT.resx">
       <DependentUpon>CineGT.cs</DependentUpon>

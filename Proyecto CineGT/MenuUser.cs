@@ -29,5 +29,45 @@ namespace Proyecto_CineGT
             cine.Show();
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            PreVenta preventa = new PreVenta();
+            preventa.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VerPeliculas verpeliculas = new VerPeliculas();
+            verpeliculas.Show();
+            this.Close();
+        }
+
+        private void MenuUser_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            EdicionBoletos edicionboletos = new EdicionBoletos();
+            edicionboletos.Show();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            CancelacionBoletos cancelarboletos = new CancelacionBoletos();
+            cancelarboletos.Show();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Historial historial = new Historial();
+            historial.Show();
+            this.Close();
+        }
     }
 }

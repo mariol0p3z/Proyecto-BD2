@@ -23,5 +23,12 @@ namespace Proyecto_CineGT
             menuser.Show();
             this.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Sala sala = new Sala();
+            sala.Show();
+            this.Close();
+        }
     }
 }
