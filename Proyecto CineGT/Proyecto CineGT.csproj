@@ -137,6 +137,9 @@
     <EmbeddedResource Include="Sala.resx">
       <DependentUpon>Sala.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VerPeliculas.resx">
+      <DependentUpon>VerPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
