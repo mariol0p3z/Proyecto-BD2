@@ -17,7 +17,7 @@ namespace Proyecto_CineGT
             InitializeComponent();
             this.Load += Sala_Load; // Asocia el evento Load con el método Sala_Load
         }
-
+        //genera tablero 
         private void Sala_Load(object sender, EventArgs e)
         {
             // Limpia las columnas y filas actuales
@@ -53,6 +53,13 @@ namespace Proyecto_CineGT
         private void Sala_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            PreVenta preventa = new PreVenta();
+            preventa.Show();
+            this.Close();
         }
     }
 }
