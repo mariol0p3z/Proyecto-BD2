@@ -24,18 +24,14 @@ namespace Proyecto_CineGT
             dataGridView1.Columns.Clear();
             dataGridView1.Rows.Clear();
 
-            // Agrega 11 columnas y ajusta el orden de derecha a izquierda
-            for (int i = 0; i < 11; i++)
+            // Agrega 11 columnas con encabezados de 11 a 1
+            for (int i = 11; i >= 1; i--)
             {
-                string headerText = $"Columna {11 - i}";
                 DataGridViewTextBoxColumn column = new DataGridViewTextBoxColumn();
-                column.HeaderText = headerText;
-                column.Name = $"Column{11 - i}";
+                column.HeaderText = i.ToString();
+                column.Name = $"Column{i}";
                 dataGridView1.Columns.Add(column);
             }
-
-            // Configura el orden de las columnas (invertido)
-            dataGridView1.Columns.Cast<DataGridViewColumn>().ToList().ForEach(c => c.DisplayIndex = 10 - dataGridView1.Columns.IndexOf(c));
 
             // Agrega las filas con etiquetas de A a F
             string[] rowLabels = { "A", "B", "C", "D", "E", "F" };
@@ -52,6 +48,11 @@ namespace Proyecto_CineGT
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             // Tu lógica para el evento CellContentClick, si la necesitas
+        }
+
+        private void Sala_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

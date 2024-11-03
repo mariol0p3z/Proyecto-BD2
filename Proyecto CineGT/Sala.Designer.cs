@@ -136,6 +136,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Sala";
             this.Text = "VentaBoletosSala";
+            this.Load += new System.EventHandler(this.Sala_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
