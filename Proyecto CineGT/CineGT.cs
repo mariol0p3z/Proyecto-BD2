@@ -66,16 +66,21 @@ namespace Proyecto_CineGT
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CineGT_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
             RegistroUser registro = new RegistroUser();
             registro.Show();
             this.Hide();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

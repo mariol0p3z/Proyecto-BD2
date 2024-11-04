@@ -50,7 +50,7 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuUser menuser = new MenuUser();
+            MenuAdmin menuser = new MenuAdmin();
             menuser.Show();
             this.Close();
         }

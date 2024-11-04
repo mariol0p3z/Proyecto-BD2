@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Proyecto_CineGT
 {
-    public partial class CancelacionBoletos : Form
+    public partial class NuevasSesiones : Form
     {
-        public CancelacionBoletos()
+        public NuevasSesiones()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
