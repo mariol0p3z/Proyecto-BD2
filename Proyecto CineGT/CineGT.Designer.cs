@@ -34,9 +34,9 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnIncioSesion = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -98,19 +98,6 @@
             this.btnIncioSesion.UseVisualStyleBackColor = false;
             this.btnIncioSesion.Click += new System.EventHandler(this.btnIncioSesion_Click);
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.Image = ((System.Drawing.Image)(resources.GetObject("linkLabel1.Image")));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Location = new System.Drawing.Point(11, 398);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(57, 63);
-            this.linkLabel1.TabIndex = 5;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "-----";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
-            // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
@@ -129,15 +116,25 @@
             this.linkLabel2.Size = new System.Drawing.Size(0, 13);
             this.linkLabel2.TabIndex = 7;
             // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Image = ((System.Drawing.Image)(resources.GetObject("label4.Image")));
+            this.label4.Location = new System.Drawing.Point(463, 419);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 42);
+            this.label4.TabIndex = 8;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // CineGT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(519, 470);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnIncioSesion);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsuario);
@@ -147,6 +144,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CineGT";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.CineGT_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,9 +157,9 @@
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnIncioSesion;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label4;
     }
 }
 

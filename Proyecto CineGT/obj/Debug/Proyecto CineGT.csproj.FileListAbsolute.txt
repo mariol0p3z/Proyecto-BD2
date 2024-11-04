@@ -21,6 +21,7 @@ C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.S
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.xml
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.AssemblyReference.cache
+C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Form1.resources
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Properties.Resources.resources
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.GenerateResource.cache
 C:\Users\maron\Source\Repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CoreCompileInputs.cache
@@ -51,6 +52,9 @@ C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Pr
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CineGT.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.PreVenta.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Sala.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CineGT.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.PreVenta.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Sala.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.VerPeliculas.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CancelacionBoletos.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Historial.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources

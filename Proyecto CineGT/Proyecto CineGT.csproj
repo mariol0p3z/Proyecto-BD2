@@ -77,11 +77,23 @@
     <Compile Include="Historial.Designer.cs">
       <DependentUpon>Historial.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuUser.Designer.cs">
       <DependentUpon>MenuUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevasSesiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevasSesiones.Designer.cs">
+      <DependentUpon>NuevasSesiones.cs</DependentUpon>
     </Compile>
     <Compile Include="PreVenta.cs">
       <SubType>Form</SubType>
@@ -115,11 +127,26 @@
     <Compile Include="VerPeliculas.Designer.cs">
       <DependentUpon>VerPeliculas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CancelacionBoletos.resx">
+      <DependentUpon>CancelacionBoletos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CineGT.resx">
       <DependentUpon>CineGT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EdicionBoletos.resx">
+      <DependentUpon>EdicionBoletos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuUser.resx">
       <DependentUpon>MenuUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevasSesiones.resx">
+      <DependentUpon>NuevasSesiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PreVenta.resx">
       <DependentUpon>PreVenta.cs</DependentUpon>
@@ -136,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sala.resx">
       <DependentUpon>Sala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerPeliculas.resx">
+      <DependentUpon>VerPeliculas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

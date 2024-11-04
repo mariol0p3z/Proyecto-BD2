@@ -69,5 +69,12 @@ namespace Proyecto_CineGT
             historial.Show();
             this.Close();
         }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            VerPeliculas verpeliculas = new VerPeliculas();
+            verpeliculas.Show();
+            this.Close();
+        }
     }
 }

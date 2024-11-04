@@ -428,6 +428,16 @@
         RK5CYII=
 </value>
   </data>
+  <data name="btnRegresar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAAEnEAABJxAfPceo4AAAAHdElNRQfoCwIFDhEZ4gVCAAAA
+        GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAALJJREFUWEft18EKQVEQh/GJUraehLv0
+        OvIC7GTBa92FN2DvBWztlBXfoanb6cpuZmS++hVW/07oXMmyf2qC4fulbw0OWL7eOTbDCQ9csYDLCXWH
+        qAvKSZnWN+SOPcYw69OQHUYwK4fUhR5ywxYDmDVFPaQ4Y4MV1gZkjiPqIR6krT7wFOtkSmG+M1qYX5MW
+        5n9Gy0Hf+plB5vcZrW+Qy01P6w5yvQNrYZ4OtDDPTVkWLJEn0tXfsZDMxY4AAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
