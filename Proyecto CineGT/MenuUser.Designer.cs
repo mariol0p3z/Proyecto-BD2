@@ -70,6 +70,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "VER PELÍCULAS DISPONIBLES";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -80,6 +81,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "VENTA BOLETOS";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -90,6 +92,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "EDICIÓN DE BOLETOS";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -100,6 +103,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "CANCELACIÓN DE BOLETOS";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -110,6 +114,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "HISTORIAL";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnRegresar
             // 
@@ -139,6 +144,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuUser";
             this.Text = "MenuUsercs";
+            this.Load += new System.EventHandler(this.MenuUser_Load);
             this.ResumeLayout(false);
 
         }
