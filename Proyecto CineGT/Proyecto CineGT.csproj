@@ -77,6 +77,12 @@
     <Compile Include="Historial.Designer.cs">
       <DependentUpon>Historial.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </Compile>
     <EmbeddedResource Include="CineGT.resx">
       <DependentUpon>CineGT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuUser.resx">
       <DependentUpon>MenuUser.cs</DependentUpon>
