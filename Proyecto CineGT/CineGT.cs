@@ -73,7 +73,7 @@ namespace Proyecto_CineGT
 
         private void CineGT_Load(object sender, EventArgs e)
         {
-
+            txtPassword.UseSystemPasswordChar = true;
         }
 
         private void label4_Click(object sender, EventArgs e)
