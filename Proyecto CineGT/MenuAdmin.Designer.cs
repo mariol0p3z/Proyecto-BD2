@@ -37,6 +37,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -115,13 +116,24 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(524, 279);
+            this.button6.Location = new System.Drawing.Point(341, 354);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(120, 52);
+            this.button6.Size = new System.Drawing.Size(129, 52);
             this.button6.TabIndex = 13;
             this.button6.Text = "CARTELERA";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(524, 279);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(120, 52);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "REPORTES";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // MenuAdmin
             // 
@@ -129,6 +141,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(771, 450);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.button5);
@@ -153,5 +166,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
