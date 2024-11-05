@@ -12,21 +12,23 @@ namespace Proyecto_CineGT
 {
     public partial class PreVenta : Form
     {
-        public PreVenta()
+        private int usuarioId;
+        public PreVenta(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            VerPeliculas vp = new VerPeliculas();
+            VerPeliculas vp = new VerPeliculas(usuarioId);
             vp.Show();
             this.Close();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Sala sala = new Sala();
+            Sala sala = new Sala(usuarioId);
             sala.Show();
             this.Close();
         }

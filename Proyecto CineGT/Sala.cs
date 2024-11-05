@@ -12,10 +12,12 @@ namespace Proyecto_CineGT
 {
     public partial class Sala : Form
     {
-        public Sala()
+        private int usuarioId;
+        public Sala(int usuarioId)
         {
             InitializeComponent();
             this.Load += Sala_Load; // Asocia el evento Load con el método Sala_Load
+            this.usuarioId = usuarioId;
         }
         //genera tablero 
         private void Sala_Load(object sender, EventArgs e)
@@ -35,7 +37,7 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            PreVenta preventa = new PreVenta();
+            PreVenta preventa = new PreVenta(usuarioId);
             preventa.Show();
             this.Close();
         }

@@ -12,14 +12,16 @@ namespace Proyecto_CineGT
 {
     public partial class NuevasSesiones : Form
     {
-        public NuevasSesiones()
+        private int usuarioId;
+        public NuevasSesiones(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuAdmin ma = new MenuAdmin();
+            MenuAdmin ma = new MenuAdmin(usuarioId);
             ma.Show();
             this.Close();
         }
