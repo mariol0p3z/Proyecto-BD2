@@ -14,12 +14,13 @@ namespace Proyecto_CineGT
 {
     public partial class VerPeliculas : Form
     {
-        public VerPeliculas()
+        private int usuarioId;
+        public VerPeliculas(int usuarioId)
         {
             InitializeComponent();
             // comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged; // Comentado o eliminado
             comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-
+            this.usuarioId = usuarioId;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace Proyecto_CineGT
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PreVenta pv = new PreVenta();
+            PreVenta pv = new PreVenta(usuarioId);
             pv.Show();
             this.Close();
         }

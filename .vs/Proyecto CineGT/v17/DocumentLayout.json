@@ -3,43 +3,51 @@
   "WorkspaceRootPath": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\preventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\preventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\verpeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\preventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\preventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\menuuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\menuuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\nuevassesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\nuevassesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\registropeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\registropeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\cancelacionboletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\cancelacionboletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\cancelacionboletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\menuuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\menuuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\nuevassesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\nuevassesiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\registropeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\registropeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\cinegt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -59,6 +67,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VerPeliculas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\VerPeliculas.cs",
+              "RelativeDocumentMoniker": "Proyecto CineGT\\VerPeliculas.cs",
+              "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\VerPeliculas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Proyecto CineGT\\VerPeliculas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T13:59:04.462Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\App.config",
+              "RelativeDocumentMoniker": "Proyecto CineGT\\App.config",
+              "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\App.config",
+              "RelativeToolTip": "Proyecto CineGT\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-05T13:36:42.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Sala.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\Sala.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\Sala.cs",
@@ -71,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PreVenta.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\PreVenta.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\PreVenta.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\PreVenta.cs",
               "RelativeToolTip": "Proyecto CineGT\\PreVenta.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwB4AAAAcAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:39:01.837Z",
               "EditorCaption": ""
@@ -90,14 +123,14 @@
               "RelativeDocumentMoniker": "Proyecto CineGT\\VerPeliculas.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\VerPeliculas.cs",
               "RelativeToolTip": "Proyecto CineGT\\VerPeliculas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:38:12.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "RegistroPeliculas.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\RegistroPeliculas.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\RegistroPeliculas.cs",
@@ -105,12 +138,11 @@
               "RelativeToolTip": "Proyecto CineGT\\RegistroPeliculas.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwBEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:10:13.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T08:10:13.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "NuevasSesiones.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\NuevasSesiones.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\NuevasSesiones.cs",
@@ -118,18 +150,17 @@
               "RelativeToolTip": "Proyecto CineGT\\NuevasSesiones.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:10:09.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T08:10:09.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "CancelacionBoletos.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\CancelacionBoletos.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\CancelacionBoletos.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\CancelacionBoletos.cs",
               "RelativeToolTip": "Proyecto CineGT\\CancelacionBoletos.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wAwAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:09:21.827Z",
               "EditorCaption": ""
@@ -142,14 +173,14 @@
               "RelativeDocumentMoniker": "Proyecto CineGT\\MenuAdmin.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\MenuAdmin.cs",
               "RelativeToolTip": "Proyecto CineGT\\MenuAdmin.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAYwCYAAAA2AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:04:15.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MenuUser.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\MenuUser.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\MenuUser.cs",
@@ -157,12 +188,11 @@
               "RelativeToolTip": "Proyecto CineGT\\MenuUser.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:02:59.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T08:02:59.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CineGT.cs",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\CineGT.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\CineGT.cs",
@@ -170,20 +200,18 @@
               "RelativeToolTip": "Proyecto CineGT\\CineGT.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAkwC4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:54:48.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:54:48.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CineGT.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\CineGT.cs",
               "RelativeDocumentMoniker": "Proyecto CineGT\\CineGT.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\CineGT.cs [Dise\u00F1o]",
               "RelativeToolTip": "Proyecto CineGT\\CineGT.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:54:42.711Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-05T07:54:42.711Z"
             }
           ]
         }
