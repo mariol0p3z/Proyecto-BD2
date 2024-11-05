@@ -65,7 +65,7 @@ namespace Proyecto_CineGT
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Historial historial = new Historial();
+            Reportes historial = new Reportes();
             historial.Show();
             this.Close();
         }
