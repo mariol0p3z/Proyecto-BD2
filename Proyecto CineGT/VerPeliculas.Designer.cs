@@ -96,6 +96,7 @@ namespace Proyecto_CineGT
             this.button1.TabIndex = 3;
             this.button1.Text = "VERIFICAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -259,6 +260,7 @@ namespace Proyecto_CineGT
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(209, 22);
             this.comboBox2.TabIndex = 25;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label10
             // 
@@ -303,6 +305,7 @@ namespace Proyecto_CineGT
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "VerPeliculas";
             this.Text = "VerPeliculas";
+            this.Load += new System.EventHandler(this.VerPeliculas_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
