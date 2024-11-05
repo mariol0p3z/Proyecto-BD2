@@ -79,10 +79,5 @@ namespace Proyecto_CineGT
             inicio.Show();
             this.Close();
         }
-
-        private void RegistroUser_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
