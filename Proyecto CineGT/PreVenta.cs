@@ -34,7 +34,25 @@ namespace Proyecto_CineGT
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Sala sala = new Sala(usuarioId);
+            // Validar que txtCantidad no esté vacío y contenga un número entero
+            if (string.IsNullOrWhiteSpace(txtCantidad.Text) || !int.TryParse(txtCantidad.Text, out int cantidad))
+            {
+                MessageBox.Show("Por favor, ingresa una cantidad válida de asientos.");
+                return;
+            }
+
+            // Validar que se haya seleccionado una opción en comboBox
+            if (cmbAsignar.SelectedItem == null)
+            {
+                MessageBox.Show("Por favor, selecciona un modo (Automático o Manual).");
+                return;
+            }
+
+            // Obtener el modo seleccionado en el ComboBox
+            string modo = cmbAsignar.SelectedItem.ToString();
+
+            // Crear y abrir el formulario Sala con los parámetros
+            Sala sala = new Sala(usuarioId, sesionId, cantidad, modo);
             sala.Show();
             this.Close();
         }
