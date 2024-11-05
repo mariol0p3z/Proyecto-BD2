@@ -123,7 +123,17 @@ namespace Proyecto_CineGT
 
         private void SeleccionarAsientosAutomaticamente()
         {
-            foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Enabled && b.Tag?.ToString() == "Asiento"))
+            // Reinicia el contador de seleccionados
+            seleccionados = 0;
+
+            // Ordena los botones de asiento en función de la fila (letra) y luego por número
+            var asientosOrdenados = this.Controls.OfType<Button>()
+                                   .Where(b => b.Enabled && b.Tag?.ToString() == "Asiento")
+                                   .OrderBy(b => b.Text[0])    // Ordena por la letra de la fila (primero A, luego B, etc.)
+                                   .ThenBy(b => int.Parse(b.Text.Substring(1))); // Luego ordena por número en la fila
+
+            // Selecciona los primeros "cantidad" asientos disponibles en el orden deseado
+            foreach (Button Asiento in asientosOrdenados)
             {
                 Asiento.BackColor = Color.LightGreen;
                 seleccionados++;
