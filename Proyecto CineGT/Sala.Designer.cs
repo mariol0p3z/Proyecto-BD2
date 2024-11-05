@@ -198,6 +198,7 @@
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(53, 39);
             this.A4.TabIndex = 27;
+            this.A4.Tag = "Asiento";
             this.A4.Text = "A4";
             this.A4.UseVisualStyleBackColor = true;
             this.A4.Click += new System.EventHandler(this.Asiento_Click);
@@ -209,6 +210,7 @@
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(53, 39);
             this.A3.TabIndex = 28;
+            this.A3.Tag = "Asiento";
             this.A3.Text = "A3";
             this.A3.UseVisualStyleBackColor = true;
             this.A3.Click += new System.EventHandler(this.Asiento_Click);
@@ -220,6 +222,7 @@
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(53, 39);
             this.A2.TabIndex = 29;
+            this.A2.Tag = "Asiento";
             this.A2.Text = "A2";
             this.A2.UseVisualStyleBackColor = true;
             this.A2.Click += new System.EventHandler(this.Asiento_Click);
@@ -231,6 +234,7 @@
             this.Asiento.Name = "Asiento";
             this.Asiento.Size = new System.Drawing.Size(53, 39);
             this.Asiento.TabIndex = 30;
+            this.Asiento.Tag = "Asiento";
             this.Asiento.Text = "A1";
             this.Asiento.UseVisualStyleBackColor = true;
             this.Asiento.Click += new System.EventHandler(this.Asiento_Click);
@@ -242,6 +246,7 @@
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(53, 39);
             this.A5.TabIndex = 34;
+            this.A5.Tag = "Asiento";
             this.A5.Text = "A5";
             this.A5.UseVisualStyleBackColor = true;
             this.A5.Click += new System.EventHandler(this.Asiento_Click);
@@ -253,6 +258,7 @@
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(53, 39);
             this.A6.TabIndex = 33;
+            this.A6.Tag = "Asiento";
             this.A6.Text = "A6";
             this.A6.UseVisualStyleBackColor = true;
             this.A6.Click += new System.EventHandler(this.Asiento_Click);
@@ -264,6 +270,7 @@
             this.A7.Name = "A7";
             this.A7.Size = new System.Drawing.Size(53, 39);
             this.A7.TabIndex = 32;
+            this.A7.Tag = "Asiento";
             this.A7.Text = "A7";
             this.A7.UseVisualStyleBackColor = true;
             this.A7.Click += new System.EventHandler(this.Asiento_Click);
@@ -275,6 +282,7 @@
             this.A8.Name = "A8";
             this.A8.Size = new System.Drawing.Size(53, 39);
             this.A8.TabIndex = 31;
+            this.A8.Tag = "Asiento";
             this.A8.Text = "A8";
             this.A8.UseVisualStyleBackColor = true;
             this.A8.Click += new System.EventHandler(this.Asiento_Click);
@@ -286,6 +294,7 @@
             this.A9.Name = "A9";
             this.A9.Size = new System.Drawing.Size(53, 39);
             this.A9.TabIndex = 38;
+            this.A9.Tag = "Asiento";
             this.A9.Text = "A9";
             this.A9.UseVisualStyleBackColor = true;
             this.A9.Click += new System.EventHandler(this.Asiento_Click);
@@ -297,6 +306,7 @@
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(53, 39);
             this.A10.TabIndex = 37;
+            this.A10.Tag = "Asiento";
             this.A10.Text = "A10";
             this.A10.UseVisualStyleBackColor = true;
             this.A10.Click += new System.EventHandler(this.Asiento_Click);
@@ -308,6 +318,7 @@
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(53, 39);
             this.A11.TabIndex = 36;
+            this.A11.Tag = "Asiento";
             this.A11.Text = "A11";
             this.A11.UseVisualStyleBackColor = true;
             this.A11.Click += new System.EventHandler(this.Asiento_Click);
@@ -319,6 +330,7 @@
             this.B9.Name = "B9";
             this.B9.Size = new System.Drawing.Size(53, 39);
             this.B9.TabIndex = 47;
+            this.B9.Tag = "Asiento";
             this.B9.Text = "B9";
             this.B9.UseVisualStyleBackColor = true;
             this.B9.Click += new System.EventHandler(this.Asiento_Click);
@@ -330,6 +342,7 @@
             this.B5.Name = "B5";
             this.B5.Size = new System.Drawing.Size(53, 39);
             this.B5.TabIndex = 46;
+            this.B5.Tag = "Asiento";
             this.B5.Text = "B5";
             this.B5.UseVisualStyleBackColor = true;
             this.B5.Click += new System.EventHandler(this.Asiento_Click);
@@ -341,6 +354,7 @@
             this.B6.Name = "B6";
             this.B6.Size = new System.Drawing.Size(53, 39);
             this.B6.TabIndex = 45;
+            this.B6.Tag = "Asiento";
             this.B6.Text = "B6";
             this.B6.UseVisualStyleBackColor = true;
             this.B6.Click += new System.EventHandler(this.Asiento_Click);
@@ -352,6 +366,7 @@
             this.B7.Name = "B7";
             this.B7.Size = new System.Drawing.Size(53, 39);
             this.B7.TabIndex = 44;
+            this.B7.Tag = "Asiento";
             this.B7.Text = "B7";
             this.B7.UseVisualStyleBackColor = true;
             this.B7.Click += new System.EventHandler(this.Asiento_Click);
@@ -363,6 +378,7 @@
             this.B8.Name = "B8";
             this.B8.Size = new System.Drawing.Size(53, 39);
             this.B8.TabIndex = 43;
+            this.B8.Tag = "Asiento";
             this.B8.Text = "B8";
             this.B8.UseVisualStyleBackColor = true;
             this.B8.Click += new System.EventHandler(this.Asiento_Click);
@@ -374,6 +390,7 @@
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(53, 39);
             this.B1.TabIndex = 42;
+            this.B1.Tag = "Asiento";
             this.B1.Text = "B1";
             this.B1.UseVisualStyleBackColor = true;
             this.B1.Click += new System.EventHandler(this.Asiento_Click);
@@ -385,6 +402,7 @@
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(53, 39);
             this.B2.TabIndex = 41;
+            this.B2.Tag = "Asiento";
             this.B2.Text = "B2";
             this.B2.UseVisualStyleBackColor = true;
             this.B2.Click += new System.EventHandler(this.Asiento_Click);
@@ -396,6 +414,7 @@
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(53, 39);
             this.B3.TabIndex = 40;
+            this.B3.Tag = "Asiento";
             this.B3.Text = "B3";
             this.B3.UseVisualStyleBackColor = true;
             this.B3.Click += new System.EventHandler(this.Asiento_Click);
@@ -407,6 +426,7 @@
             this.B4.Name = "B4";
             this.B4.Size = new System.Drawing.Size(53, 39);
             this.B4.TabIndex = 39;
+            this.B4.Tag = "Asiento";
             this.B4.Text = "B4";
             this.B4.UseVisualStyleBackColor = true;
             this.B4.Click += new System.EventHandler(this.Asiento_Click);
@@ -418,6 +438,7 @@
             this.C9.Name = "C9";
             this.C9.Size = new System.Drawing.Size(53, 39);
             this.C9.TabIndex = 56;
+            this.C9.Tag = "Asiento";
             this.C9.Text = "C9";
             this.C9.UseVisualStyleBackColor = true;
             this.C9.Click += new System.EventHandler(this.Asiento_Click);
@@ -429,6 +450,7 @@
             this.C5.Name = "C5";
             this.C5.Size = new System.Drawing.Size(53, 39);
             this.C5.TabIndex = 55;
+            this.C5.Tag = "Asiento";
             this.C5.Text = "C5";
             this.C5.UseVisualStyleBackColor = true;
             this.C5.Click += new System.EventHandler(this.Asiento_Click);
@@ -440,6 +462,7 @@
             this.C6.Name = "C6";
             this.C6.Size = new System.Drawing.Size(53, 39);
             this.C6.TabIndex = 54;
+            this.C6.Tag = "Asiento";
             this.C6.Text = "C6";
             this.C6.UseVisualStyleBackColor = true;
             this.C6.Click += new System.EventHandler(this.Asiento_Click);
@@ -451,6 +474,7 @@
             this.C7.Name = "C7";
             this.C7.Size = new System.Drawing.Size(53, 39);
             this.C7.TabIndex = 53;
+            this.C7.Tag = "Asiento";
             this.C7.Text = "C7";
             this.C7.UseVisualStyleBackColor = true;
             this.C7.Click += new System.EventHandler(this.Asiento_Click);
@@ -462,6 +486,7 @@
             this.C8.Name = "C8";
             this.C8.Size = new System.Drawing.Size(53, 39);
             this.C8.TabIndex = 52;
+            this.C8.Tag = "Asiento";
             this.C8.Text = "C8";
             this.C8.UseVisualStyleBackColor = true;
             this.C8.Click += new System.EventHandler(this.Asiento_Click);
@@ -473,6 +498,7 @@
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(53, 39);
             this.C1.TabIndex = 51;
+            this.C1.Tag = "Asiento";
             this.C1.Text = "C1";
             this.C1.UseVisualStyleBackColor = true;
             this.C1.Click += new System.EventHandler(this.Asiento_Click);
@@ -484,6 +510,7 @@
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(53, 39);
             this.C2.TabIndex = 50;
+            this.C2.Tag = "Asiento";
             this.C2.Text = "C2";
             this.C2.UseVisualStyleBackColor = true;
             this.C2.Click += new System.EventHandler(this.Asiento_Click);
@@ -495,6 +522,7 @@
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(53, 39);
             this.C3.TabIndex = 49;
+            this.C3.Tag = "Asiento";
             this.C3.Text = "C3";
             this.C3.UseVisualStyleBackColor = true;
             this.C3.Click += new System.EventHandler(this.Asiento_Click);
@@ -506,6 +534,7 @@
             this.C4.Name = "C4";
             this.C4.Size = new System.Drawing.Size(53, 39);
             this.C4.TabIndex = 48;
+            this.C4.Tag = "Asiento";
             this.C4.Text = "C4";
             this.C4.UseVisualStyleBackColor = true;
             this.C4.Click += new System.EventHandler(this.Asiento_Click);
@@ -527,6 +556,7 @@
             this.E9.Name = "E9";
             this.E9.Size = new System.Drawing.Size(53, 39);
             this.E9.TabIndex = 93;
+            this.E9.Tag = "Asiento";
             this.E9.Text = "E9";
             this.E9.UseVisualStyleBackColor = true;
             this.E9.Click += new System.EventHandler(this.Asiento_Click);
@@ -538,6 +568,7 @@
             this.E5.Name = "E5";
             this.E5.Size = new System.Drawing.Size(53, 39);
             this.E5.TabIndex = 92;
+            this.E5.Tag = "Asiento";
             this.E5.Text = "E5";
             this.E5.UseVisualStyleBackColor = true;
             this.E5.Click += new System.EventHandler(this.Asiento_Click);
@@ -549,6 +580,7 @@
             this.E6.Name = "E6";
             this.E6.Size = new System.Drawing.Size(53, 39);
             this.E6.TabIndex = 91;
+            this.E6.Tag = "Asiento";
             this.E6.Text = "E6";
             this.E6.UseVisualStyleBackColor = true;
             this.E6.Click += new System.EventHandler(this.Asiento_Click);
@@ -560,6 +592,7 @@
             this.E7.Name = "E7";
             this.E7.Size = new System.Drawing.Size(53, 39);
             this.E7.TabIndex = 90;
+            this.E7.Tag = "Asiento";
             this.E7.Text = "E7";
             this.E7.UseVisualStyleBackColor = true;
             this.E7.Click += new System.EventHandler(this.Asiento_Click);
@@ -571,6 +604,7 @@
             this.E8.Name = "E8";
             this.E8.Size = new System.Drawing.Size(53, 39);
             this.E8.TabIndex = 89;
+            this.E8.Tag = "Asiento";
             this.E8.Text = "E8";
             this.E8.UseVisualStyleBackColor = true;
             this.E8.Click += new System.EventHandler(this.Asiento_Click);
@@ -582,6 +616,7 @@
             this.E1.Name = "E1";
             this.E1.Size = new System.Drawing.Size(53, 39);
             this.E1.TabIndex = 88;
+            this.E1.Tag = "Asiento";
             this.E1.Text = "E1";
             this.E1.UseVisualStyleBackColor = true;
             this.E1.Click += new System.EventHandler(this.Asiento_Click);
@@ -593,6 +628,7 @@
             this.E2.Name = "E2";
             this.E2.Size = new System.Drawing.Size(53, 39);
             this.E2.TabIndex = 87;
+            this.E2.Tag = "Asiento";
             this.E2.Text = "E2";
             this.E2.UseVisualStyleBackColor = true;
             this.E2.Click += new System.EventHandler(this.Asiento_Click);
@@ -604,6 +640,7 @@
             this.E3.Name = "E3";
             this.E3.Size = new System.Drawing.Size(53, 39);
             this.E3.TabIndex = 86;
+            this.E3.Tag = "Asiento";
             this.E3.Text = "E3";
             this.E3.UseVisualStyleBackColor = true;
             this.E3.Click += new System.EventHandler(this.Asiento_Click);
@@ -615,6 +652,7 @@
             this.E4.Name = "E4";
             this.E4.Size = new System.Drawing.Size(53, 39);
             this.E4.TabIndex = 85;
+            this.E4.Tag = "Asiento";
             this.E4.Text = "E4";
             this.E4.UseVisualStyleBackColor = true;
             this.E4.Click += new System.EventHandler(this.Asiento_Click);
@@ -626,6 +664,7 @@
             this.D9.Name = "D9";
             this.D9.Size = new System.Drawing.Size(53, 39);
             this.D9.TabIndex = 84;
+            this.D9.Tag = "Asiento";
             this.D9.Text = "D9";
             this.D9.UseVisualStyleBackColor = true;
             this.D9.Click += new System.EventHandler(this.Asiento_Click);
@@ -637,6 +676,7 @@
             this.D5.Name = "D5";
             this.D5.Size = new System.Drawing.Size(53, 39);
             this.D5.TabIndex = 83;
+            this.D5.Tag = "Asiento";
             this.D5.Text = "D5";
             this.D5.UseVisualStyleBackColor = true;
             this.D5.Click += new System.EventHandler(this.Asiento_Click);
@@ -648,6 +688,7 @@
             this.D6.Name = "D6";
             this.D6.Size = new System.Drawing.Size(53, 39);
             this.D6.TabIndex = 82;
+            this.D6.Tag = "Asiento";
             this.D6.Text = "D6";
             this.D6.UseVisualStyleBackColor = true;
             this.D6.Click += new System.EventHandler(this.Asiento_Click);
@@ -659,6 +700,7 @@
             this.D7.Name = "D7";
             this.D7.Size = new System.Drawing.Size(53, 39);
             this.D7.TabIndex = 81;
+            this.D7.Tag = "Asiento";
             this.D7.Text = "D7";
             this.D7.UseVisualStyleBackColor = true;
             this.D7.Click += new System.EventHandler(this.Asiento_Click);
@@ -670,6 +712,7 @@
             this.D8.Name = "D8";
             this.D8.Size = new System.Drawing.Size(53, 39);
             this.D8.TabIndex = 80;
+            this.D8.Tag = "Asiento";
             this.D8.Text = "D8";
             this.D8.UseVisualStyleBackColor = true;
             this.D8.Click += new System.EventHandler(this.Asiento_Click);
@@ -681,6 +724,7 @@
             this.D1.Name = "D1";
             this.D1.Size = new System.Drawing.Size(53, 39);
             this.D1.TabIndex = 79;
+            this.D1.Tag = "Asiento";
             this.D1.Text = "D1";
             this.D1.UseVisualStyleBackColor = true;
             this.D1.Click += new System.EventHandler(this.Asiento_Click);
@@ -692,6 +736,7 @@
             this.D2.Name = "D2";
             this.D2.Size = new System.Drawing.Size(53, 39);
             this.D2.TabIndex = 78;
+            this.D2.Tag = "Asiento";
             this.D2.Text = "D2";
             this.D2.UseVisualStyleBackColor = true;
             this.D2.Click += new System.EventHandler(this.Asiento_Click);
@@ -703,6 +748,7 @@
             this.D3.Name = "D3";
             this.D3.Size = new System.Drawing.Size(53, 39);
             this.D3.TabIndex = 77;
+            this.D3.Tag = "Asiento";
             this.D3.Text = "D3";
             this.D3.UseVisualStyleBackColor = true;
             this.D3.Click += new System.EventHandler(this.Asiento_Click);
@@ -714,6 +760,7 @@
             this.D4.Name = "D4";
             this.D4.Size = new System.Drawing.Size(53, 39);
             this.D4.TabIndex = 76;
+            this.D4.Tag = "Asiento";
             this.D4.Text = "D4";
             this.D4.UseVisualStyleBackColor = true;
             this.D4.Click += new System.EventHandler(this.Asiento_Click);
@@ -725,6 +772,7 @@
             this.F9.Name = "F9";
             this.F9.Size = new System.Drawing.Size(53, 39);
             this.F9.TabIndex = 102;
+            this.F9.Tag = "Asiento";
             this.F9.Text = "F9";
             this.F9.UseVisualStyleBackColor = true;
             this.F9.Click += new System.EventHandler(this.Asiento_Click);
@@ -736,6 +784,7 @@
             this.F5.Name = "F5";
             this.F5.Size = new System.Drawing.Size(53, 39);
             this.F5.TabIndex = 101;
+            this.F5.Tag = "Asiento";
             this.F5.Text = "F5";
             this.F5.UseVisualStyleBackColor = true;
             this.F5.Click += new System.EventHandler(this.Asiento_Click);
@@ -747,6 +796,7 @@
             this.F6.Name = "F6";
             this.F6.Size = new System.Drawing.Size(53, 39);
             this.F6.TabIndex = 100;
+            this.F6.Tag = "Asiento";
             this.F6.Text = "F6";
             this.F6.UseVisualStyleBackColor = true;
             this.F6.Click += new System.EventHandler(this.Asiento_Click);
@@ -758,6 +808,7 @@
             this.F7.Name = "F7";
             this.F7.Size = new System.Drawing.Size(53, 39);
             this.F7.TabIndex = 99;
+            this.F7.Tag = "Asiento";
             this.F7.Text = "F7";
             this.F7.UseVisualStyleBackColor = true;
             this.F7.Click += new System.EventHandler(this.Asiento_Click);
@@ -769,6 +820,7 @@
             this.F8.Name = "F8";
             this.F8.Size = new System.Drawing.Size(53, 39);
             this.F8.TabIndex = 98;
+            this.F8.Tag = "Asiento";
             this.F8.Text = "F8";
             this.F8.UseVisualStyleBackColor = true;
             this.F8.Click += new System.EventHandler(this.Asiento_Click);
@@ -780,6 +832,7 @@
             this.F1.Name = "F1";
             this.F1.Size = new System.Drawing.Size(53, 39);
             this.F1.TabIndex = 97;
+            this.F1.Tag = "Asiento";
             this.F1.Text = "F1";
             this.F1.UseVisualStyleBackColor = true;
             this.F1.Click += new System.EventHandler(this.Asiento_Click);
@@ -791,6 +844,7 @@
             this.F2.Name = "F2";
             this.F2.Size = new System.Drawing.Size(53, 39);
             this.F2.TabIndex = 96;
+            this.F2.Tag = "Asiento";
             this.F2.Text = "F2";
             this.F2.UseVisualStyleBackColor = true;
             this.F2.Click += new System.EventHandler(this.Asiento_Click);
@@ -802,6 +856,7 @@
             this.F3.Name = "F3";
             this.F3.Size = new System.Drawing.Size(53, 39);
             this.F3.TabIndex = 95;
+            this.F3.Tag = "Asiento";
             this.F3.Text = "F3";
             this.F3.UseVisualStyleBackColor = true;
             this.F3.Click += new System.EventHandler(this.Asiento_Click);
@@ -813,6 +868,7 @@
             this.F4.Name = "F4";
             this.F4.Size = new System.Drawing.Size(53, 39);
             this.F4.TabIndex = 94;
+            this.F4.Tag = "Asiento";
             this.F4.Text = "F4";
             this.F4.UseVisualStyleBackColor = true;
             this.F4.Click += new System.EventHandler(this.Asiento_Click);
