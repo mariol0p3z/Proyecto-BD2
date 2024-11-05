@@ -46,9 +46,18 @@ namespace Proyecto_CineGT
                         SqlDataReader lector = cmd.ExecuteReader();
                         if (lector.Read())
                         {
+                            string rol = lector["rol"].ToString();
                             MessageBox.Show("Bienvenido " + txtUsuario.Text, "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            MenuUser user = new MenuUser();
-                            user.Show();
+                            if (rol == "admin")
+                            {
+                                MenuAdmin admin = new MenuAdmin();
+                                admin.Show();
+                            }
+                            else
+                            {
+                                MenuUser user = new MenuUser();
+                                user.Show();
+                            }
                             this.Hide();
                         }
                         else
