@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|c:\\users\\ojort\\onedrive\\documentos\\github\\proyecto-bd2\\proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4BD5D46B-863F-44FB-AE31-754819B611F4}|Proyecto CineGT\\Proyecto CineGT.csproj|solutionrelative:proyecto cinegt\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -89,8 +89,7 @@
               "RelativeToolTip": "Proyecto CineGT\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-05T13:36:42.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T13:36:42.73Z"
             },
             {
               "$type": "Document",
@@ -100,7 +99,7 @@
               "RelativeDocumentMoniker": "Proyecto CineGT\\Sala.cs",
               "ToolTip": "C:\\Users\\ojort\\OneDrive\\Documentos\\GitHub\\Proyecto-BD2\\Proyecto CineGT\\Sala.cs",
               "RelativeToolTip": "Proyecto CineGT\\Sala.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAiwNIAAAAJAAAA",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAcwHUAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:39:56.492Z",
               "EditorCaption": ""

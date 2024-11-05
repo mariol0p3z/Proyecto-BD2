@@ -50,9 +50,9 @@ namespace Proyecto_CineGT
             else
             {
                 // En modo manual, agregar el evento Click a los botones de asientos
-                foreach (Button asiento in this.Controls.OfType<Button>().Where(b => b.Tag?.ToString() == "Asiento"))
+                foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Tag?.ToString() == "Asiento"))
                 {
-                    asiento.Click += Asiento_Click;
+                    Asiento.Click += Asiento_Click;
                 }
             }
         }
@@ -65,17 +65,39 @@ namespace Proyecto_CineGT
                 using (SqlConnection conexion = new SqlConnection(cnn))
                 {
                     conexion.Open();
-                    string query = "SELECT id_asiento FROM reserva WHERE sesion_id = @sesionId";
 
-                    using (SqlCommand cmd = new SqlCommand(query, conexion))
+                    // Obtener el salaId asociado al sesionId
+                    int salaId;
+                    string querySala = "SELECT sala_id FROM sesion WHERE sesion_id = @sesionId";
+                    using (SqlCommand cmdSala = new SqlCommand(querySala, conexion))
                     {
-                        cmd.Parameters.AddWithValue("@sesionId", sesionId);
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        cmdSala.Parameters.AddWithValue("@sesionId", sesionId);
+                        salaId = (int)cmdSala.ExecuteScalar();
+                    }
+
+                    // Consultar los asientos reservados para el salaId y sesionId especificados
+                    string queryAsientos = "SELECT a.fila, a.numero FROM reserva r " +
+                                            "INNER JOIN asiento a ON r.id_asiento = a.id_asiento " +
+                                            "WHERE r.sesion_id = @sesionId AND a.sala_id = @salaId";
+
+                    using (SqlCommand cmdAsientos = new SqlCommand(queryAsientos, conexion))
+                    {
+                        cmdAsientos.Parameters.AddWithValue("@sesionId", sesionId);
+                        cmdAsientos.Parameters.AddWithValue("@salaId", salaId);
+
+                        using (SqlDataReader reader = cmdAsientos.ExecuteReader())
                         {
                             while (reader.Read())
                             {
-                                int idAsiento = reader.GetInt32(0);
-                                Button asientoBtn = ObtenerBotonAsientoPorId(idAsiento);
+                                // Obtenemos la fila y el número del asiento reservado
+                                string fila = reader.GetString(0); // 'fila' es de tipo char(1)
+                                int numero = reader.GetInt32(1);   // 'numero' es un int
+
+                                // Convertimos fila + numero a la clave que usamos en los botones
+                                string claveAsiento = fila + numero.ToString();
+
+                                // Buscamos el botón cuyo .Text coincida con la clave del asiento
+                                Button asientoBtn = ObtenerBotonAsientoPorClave(claveAsiento);
                                 if (asientoBtn != null)
                                 {
                                     asientoBtn.BackColor = Color.Navy;
@@ -92,17 +114,18 @@ namespace Proyecto_CineGT
             }
         }
 
-        private Button ObtenerBotonAsientoPorId(int idAsiento)
+        // Método modificado para buscar el botón basado en la clave fila + numero
+        private Button ObtenerBotonAsientoPorClave(string claveAsiento)
         {
-            // Buscar el botón correspondiente al asiento en base al id (según tu lógica de mapeo)
-            return this.Controls.OfType<Button>().FirstOrDefault(b => b.Name == "btnAsiento" + idAsiento);
+            // Buscar el botón correspondiente al asiento usando fila+numero como clave en su .Text
+            return this.Controls.OfType<Button>().FirstOrDefault(b => b.Text == claveAsiento);
         }
 
         private void SeleccionarAsientosAutomaticamente()
         {
-            foreach (Button asiento in this.Controls.OfType<Button>().Where(b => b.Enabled && b.Tag?.ToString() == "Asiento"))
+            foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Enabled && b.Tag?.ToString() == "Asiento"))
             {
-                asiento.BackColor = Color.LightGreen;
+                Asiento.BackColor = Color.LightGreen;
                 seleccionados++;
 
                 if (seleccionados >= cantidad)
