@@ -103,7 +103,7 @@
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(339, 434);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(143, 48);
             this.button6.TabIndex = 18;
@@ -114,7 +114,7 @@
             // txtCantidad
             // 
             this.txtCantidad.Location = new System.Drawing.Point(264, 320);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(79, 22);
             this.txtCantidad.TabIndex = 19;
@@ -122,7 +122,7 @@
             // txtPelicula
             // 
             this.txtPelicula.Location = new System.Drawing.Point(264, 209);
-            this.txtPelicula.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPelicula.Margin = new System.Windows.Forms.Padding(4);
             this.txtPelicula.Name = "txtPelicula";
             this.txtPelicula.ReadOnly = true;
             this.txtPelicula.Size = new System.Drawing.Size(437, 22);
@@ -131,7 +131,7 @@
             // txtHorarioI
             // 
             this.txtHorarioI.Location = new System.Drawing.Point(264, 263);
-            this.txtHorarioI.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHorarioI.Margin = new System.Windows.Forms.Padding(4);
             this.txtHorarioI.Name = "txtHorarioI";
             this.txtHorarioI.ReadOnly = true;
             this.txtHorarioI.Size = new System.Drawing.Size(437, 22);
@@ -173,7 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(776, 497);
+            this.ClientSize = new System.Drawing.Size(783, 497);
             this.Controls.Add(this.txtHorarioI);
             this.Controls.Add(this.txtPelicula);
             this.Controls.Add(this.cmbAsignar);
@@ -185,9 +185,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PreVenta";
-            this.Text = "PreCompra";
+            this.Text = "Venta";
             this.Load += new System.EventHandler(this.PreVenta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

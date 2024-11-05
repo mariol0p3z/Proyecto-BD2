@@ -151,7 +151,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(676, 306);
+            this.label4.Location = new System.Drawing.Point(676, 319);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 25);
@@ -171,10 +171,10 @@
             // btnSeleccionar
             // 
             this.btnSeleccionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionar.Location = new System.Drawing.Point(681, 857);
+            this.btnSeleccionar.Location = new System.Drawing.Point(681, 836);
             this.btnSeleccionar.Margin = new System.Windows.Forms.Padding(4);
             this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.Size = new System.Drawing.Size(131, 36);
+            this.btnSeleccionar.Size = new System.Drawing.Size(176, 57);
             this.btnSeleccionar.TabIndex = 7;
             this.btnSeleccionar.Text = "SELECCIONAR";
             this.btnSeleccionar.UseVisualStyleBackColor = true;
@@ -543,10 +543,10 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(375, 774);
+            this.label5.Location = new System.Drawing.Point(328, 774);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(712, 34);
+            this.label5.Size = new System.Drawing.Size(802, 34);
             this.label5.TabIndex = 75;
             // 
             // E9
@@ -914,7 +914,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1416, 907);
+            this.ClientSize = new System.Drawing.Size(1416, 946);
             this.Controls.Add(this.lblModo);
             this.Controls.Add(this.txtCantMax);
             this.Controls.Add(this.label6);
@@ -983,7 +983,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Sala";
             this.Text = "VentaBoletosSala";
