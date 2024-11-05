@@ -49,5 +49,12 @@ namespace Proyecto_CineGT
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Reportes rep = new Reportes();
+            rep.Show();
+            this.Close();
+        }
     }
 }
