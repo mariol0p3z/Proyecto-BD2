@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_CineGT
 {
-    public partial class Historial : Form
+    public partial class Reportes : Form
     {
-        public Historial()
+        public Reportes()
         {
             InitializeComponent();
         }
