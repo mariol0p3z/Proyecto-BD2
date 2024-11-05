@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtPorcentaje = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnReporte = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.txtPorcentaje = new System.Windows.Forms.TextBox();
+            this.cineGTDataSet1 = new Proyecto_CineGT.CineGTDataSet();
+            this.fn_SesionesPorcentajeOcupacionTableAdapter1 = new Proyecto_CineGT.CineGTDataSetTableAdapters.fn_SesionesPorcentajeOcupacionTableAdapter();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cineGTDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -46,6 +49,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 73);
             this.panel1.TabIndex = 5;
+            // 
+            // txtPorcentaje
+            // 
+            this.txtPorcentaje.Location = new System.Drawing.Point(278, 31);
+            this.txtPorcentaje.Name = "txtPorcentaje";
+            this.txtPorcentaje.Size = new System.Drawing.Size(149, 22);
+            this.txtPorcentaje.TabIndex = 5;
             // 
             // label1
             // 
@@ -64,22 +74,26 @@
             this.btnReporte.TabIndex = 3;
             this.btnReporte.Text = "Ver Reporte";
             this.btnReporte.UseVisualStyleBackColor = true;
+            this.btnReporte.Click += new System.EventHandler(this.btnReporte_Click);
             // 
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_CineGT.Reportes.ReportePorcentaje.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 73);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(800, 377);
             this.reportViewer1.TabIndex = 6;
             // 
-            // txtPorcentaje
+            // cineGTDataSet1
             // 
-            this.txtPorcentaje.Location = new System.Drawing.Point(278, 31);
-            this.txtPorcentaje.Name = "txtPorcentaje";
-            this.txtPorcentaje.Size = new System.Drawing.Size(149, 22);
-            this.txtPorcentaje.TabIndex = 5;
+            this.cineGTDataSet1.DataSetName = "CineGTDataSet";
+            this.cineGTDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // fn_SesionesPorcentajeOcupacionTableAdapter1
+            // 
+            this.fn_SesionesPorcentajeOcupacionTableAdapter1.ClearBeforeFill = true;
             // 
             // DetalleAsientos
             // 
@@ -90,8 +104,10 @@
             this.Controls.Add(this.panel1);
             this.Name = "DetalleAsientos";
             this.Text = "DetalleAsientos";
+            this.Load += new System.EventHandler(this.DetalleAsientos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cineGTDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -103,5 +119,7 @@
         private System.Windows.Forms.Button btnReporte;
         private System.Windows.Forms.TextBox txtPorcentaje;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private CineGTDataSet cineGTDataSet1;
+        private CineGTDataSetTableAdapters.fn_SesionesPorcentajeOcupacionTableAdapter fn_SesionesPorcentajeOcupacionTableAdapter1;
     }
 }

@@ -83,6 +83,21 @@
     <Compile Include="CineGT.Designer.cs">
       <DependentUpon>CineGT.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSetAsientosOcupados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetAsientosOcupados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPorcentaje.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPorcentaje.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetTop5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetTop5.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DetalleAsientos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,12 +258,48 @@
     <EmbeddedResource Include="RegistroUser.resx">
       <DependentUpon>RegistroUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReportePeliculas.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportePorcentaje.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteSalas.rdlc" />
     <EmbeddedResource Include="Sala.resx">
       <DependentUpon>Sala.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VerPeliculas.resx">
       <DependentUpon>VerPeliculas.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSetAsientosOcupados.xsc">
+      <DependentUpon>DataSetAsientosOcupados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetAsientosOcupados.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetAsientosOcupados.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetAsientosOcupados.xss">
+      <DependentUpon>DataSetAsientosOcupados.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPorcentaje.xsc">
+      <DependentUpon>DataSetPorcentaje.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPorcentaje.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPorcentaje.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetPorcentaje.xss">
+      <DependentUpon>DataSetPorcentaje.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTop5.xsc">
+      <DependentUpon>DataSetTop5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetTop5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetTop5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetTop5.xss">
+      <DependentUpon>DataSetTop5.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -290,8 +341,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Reportes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
