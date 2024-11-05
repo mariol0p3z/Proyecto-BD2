@@ -37,7 +37,6 @@ C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Pr
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.VerPeliculas.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CancelacionBoletos.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
-C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Historial.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe.config
@@ -125,3 +124,4 @@ C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_Cine
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogSesiones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogTransacciones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources
