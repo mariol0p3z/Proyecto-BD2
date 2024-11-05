@@ -19,8 +19,8 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuUser menuser = new MenuUser();
-            menuser.Show();
+            VerPeliculas vp = new VerPeliculas();
+            vp.Show();
             this.Close();
         }
 
@@ -29,6 +29,16 @@ namespace Proyecto_CineGT
             Sala sala = new Sala();
             sala.Show();
             this.Close();
+        }
+
+        private void PreVenta_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

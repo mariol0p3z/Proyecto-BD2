@@ -16,5 +16,17 @@ namespace Proyecto_CineGT
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            //modificar para usuario y admin
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            PreVenta pv = new PreVenta();
+            pv.Show();
+            this.Close();
+        }
     }
 }

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuUser));
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
@@ -46,17 +45,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(775, 152);
             this.label1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(221, 180);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 52);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "VENTA BOLETOS";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button3_Click);
             // 
             // button3
             // 
@@ -94,7 +82,7 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(406, 255);
+            this.button4.Location = new System.Drawing.Point(235, 180);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(129, 52);
             this.button4.TabIndex = 12;
@@ -112,7 +100,6 @@
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MenuUser";
@@ -124,7 +111,6 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnRegresar;

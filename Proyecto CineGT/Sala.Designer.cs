@@ -94,6 +94,8 @@
             this.F2 = new System.Windows.Forms.Button();
             this.F3 = new System.Windows.Forms.Button();
             this.F4 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
@@ -142,7 +144,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(501, 230);
+            this.label4.Location = new System.Drawing.Point(507, 263);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 19);
             this.label4.TabIndex = 5;
@@ -443,9 +445,9 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(290, 629);
+            this.label5.Location = new System.Drawing.Point(281, 629);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(525, 28);
+            this.label5.Size = new System.Drawing.Size(534, 28);
             this.label5.TabIndex = 75;
             // 
             // E9
@@ -691,12 +693,34 @@
             this.F4.Text = "F4";
             this.F4.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Unispace", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(334, 221);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(179, 19);
+            this.label6.TabIndex = 103;
+            this.label6.Text = "CANTIDAD BOLETOS:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Enabled = false;
+            this.textBox3.Location = new System.Drawing.Point(519, 220);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(203, 20);
+            this.textBox3.TabIndex = 104;
+            // 
             // Sala
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1062, 737);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.F9);
             this.Controls.Add(this.F5);
             this.Controls.Add(this.F6);
@@ -837,5 +861,7 @@
         private System.Windows.Forms.Button F2;
         private System.Windows.Forms.Button F3;
         private System.Windows.Forms.Button F4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
