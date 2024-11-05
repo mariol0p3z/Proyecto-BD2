@@ -30,9 +30,59 @@ namespace Proyecto_CineGT
 
         private void button2_Click(object sender, EventArgs e)
         {
-            PreVenta pv = new PreVenta(usuarioId);
-            pv.Show();
-            this.Close();
+            // Validar que el usuario haya hecho una selección en ambos ComboBoxes
+            if (comboBox2.SelectedValue == null || comboBox3.SelectedValue == null)
+            {
+                MessageBox.Show("Por favor, selecciona tanto el horario de inicio como la sala.");
+                return;
+            }
+
+            // Obtener los valores seleccionados del ComboBox de horarios y de salas
+            int sesionId = (int)comboBox2.SelectedValue; // ID de sesión basado en el horario de inicio
+            int salaId = (int)comboBox3.SelectedValue;   // ID de sala
+
+            // Conectar a la base de datos y verificar la combinación en la tabla sesión
+            try
+            {
+                string cnn = ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
+                using (SqlConnection conexion = new SqlConnection(cnn))
+                {
+                    conexion.Open();
+
+                    // Query para verificar si existe la combinación de sesion_id y sala_id
+                    string query = @"
+                SELECT COUNT(*)
+                FROM sesion 
+                WHERE sesion_id = @sesionId AND sala_id = @salaId AND pelicula_id = @peliculaId";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conexion))
+                    {
+                        // Parámetros para la consulta
+                        cmd.Parameters.AddWithValue("@sesionId", sesionId);
+                        cmd.Parameters.AddWithValue("@salaId", salaId);
+                        cmd.Parameters.AddWithValue("@peliculaId", (int)comboBox1.SelectedValue);
+
+                        // Ejecutar la consulta
+                        int count = (int)cmd.ExecuteScalar();
+
+                        if (count == 0)
+                        {
+                            MessageBox.Show("La combinación de horario de inicio y sala no es válida para esta película.");
+                        }
+                        else
+                        {
+                            // Si la combinación es válida, abrir la ventana de Preventa
+                            PreVenta pv = new PreVenta(usuarioId);
+                            pv.Show();
+                            this.Close();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al validar la combinación de horario y sala: " + ex.Message);
+            }
         }
 
         private void VerPeliculas_Load_1(object sender, EventArgs e)
