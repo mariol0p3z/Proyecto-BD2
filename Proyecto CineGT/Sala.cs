@@ -18,6 +18,7 @@ namespace Proyecto_CineGT
         private int sesionId;
         private int cantidad;
         private string modo;
+        private int seleccionados = 0; // Contador de asientos seleccionados
 
         public Sala(int usuarioId, int sesionId, int cantidad, string modo)
         {
@@ -31,12 +32,105 @@ namespace Proyecto_CineGT
         //genera tablero 
         private void Sala_Load(object sender, EventArgs e)
         {
+            // Consultar asientos reservados y marcarlos en azul marino
+            MarcarAsientosReservados();
+
             // Cargar los datos de la sesión y mostrar en los campos correspondientes
             CargarDatosSesion();
 
             // Mostrar la cantidad en txtCantidad y el modo en lblModo
             txtCantMax.Text = cantidad.ToString();
             lblModo.Text = modo == "Automático" ? "MODO AUTOMÁTICO" : "MODO MANUAL";
+
+            // En modo automático, seleccionar asientos automáticamente
+            if (modo == "Automático")
+            {
+                SeleccionarAsientosAutomaticamente();
+            }
+            else
+            {
+                // En modo manual, agregar el evento Click a los botones de asientos
+                foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Tag?.ToString() == "Asiento"))
+                {
+                    Asiento.Click += Asiento_Click;
+                }
+            }
+        }
+
+        private void MarcarAsientosReservados()
+        {
+            try
+            {
+                string cnn = ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
+                using (SqlConnection conexion = new SqlConnection(cnn))
+                {
+                    conexion.Open();
+
+                    // Obtener el salaId asociado al sesionId
+                    int salaId;
+                    string querySala = "SELECT sala_id FROM sesion WHERE sesion_id = @sesionId";
+                    using (SqlCommand cmdSala = new SqlCommand(querySala, conexion))
+                    {
+                        cmdSala.Parameters.AddWithValue("@sesionId", sesionId);
+                        salaId = (int)cmdSala.ExecuteScalar();
+                    }
+
+                    // Consultar los asientos reservados para el salaId y sesionId especificados
+                    string queryAsientos = "SELECT a.fila, a.numero FROM reserva r " +
+                                            "INNER JOIN asiento a ON r.id_asiento = a.id_asiento " +
+                                            "WHERE r.sesion_id = @sesionId AND a.sala_id = @salaId";
+
+                    using (SqlCommand cmdAsientos = new SqlCommand(queryAsientos, conexion))
+                    {
+                        cmdAsientos.Parameters.AddWithValue("@sesionId", sesionId);
+                        cmdAsientos.Parameters.AddWithValue("@salaId", salaId);
+
+                        using (SqlDataReader reader = cmdAsientos.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                // Obtenemos la fila y el número del asiento reservado
+                                string fila = reader.GetString(0); // 'fila' es de tipo char(1)
+                                int numero = reader.GetInt32(1);   // 'numero' es un int
+
+                                // Convertimos fila + numero a la clave que usamos en los botones
+                                string claveAsiento = fila + numero.ToString();
+
+                                // Buscamos el botón cuyo .Text coincida con la clave del asiento
+                                Button asientoBtn = ObtenerBotonAsientoPorClave(claveAsiento);
+                                if (asientoBtn != null)
+                                {
+                                    asientoBtn.BackColor = Color.Navy;
+                                    asientoBtn.Enabled = false; // Deshabilitar el asiento ya reservado
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al cargar los asientos reservados: " + ex.Message);
+            }
+        }
+
+        // Método modificado para buscar el botón basado en la clave fila + numero
+        private Button ObtenerBotonAsientoPorClave(string claveAsiento)
+        {
+            // Buscar el botón correspondiente al asiento usando fila+numero como clave en su .Text
+            return this.Controls.OfType<Button>().FirstOrDefault(b => b.Text == claveAsiento);
+        }
+
+        private void SeleccionarAsientosAutomaticamente()
+        {
+            foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Enabled && b.Tag?.ToString() == "Asiento"))
+            {
+                Asiento.BackColor = Color.LightGreen;
+                seleccionados++;
+
+                if (seleccionados >= cantidad)
+                    break;
+            }
         }
 
         private void CargarDatosSesion()
@@ -93,10 +187,65 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            //Comentado Temporal
             PreVenta preventa = new PreVenta(usuarioId, sesionId);
             preventa.Show();
             this.Close();
+        }
+
+        private void btnSeleccionar_Click(object sender, EventArgs e)
+        {
+            foreach (Button asiento in this.Controls.OfType<Button>().Where(b => b.BackColor == Color.LightGreen))
+            {
+                string asientoInfo = asiento.Text; // Ej: "A11"
+                string fila = asientoInfo.Substring(0, 1);
+                int numeroAsiento = int.Parse(asientoInfo.Substring(1));
+
+                ReservarAsiento(fila, numeroAsiento);
+            }
+
+            MessageBox.Show("Asientos reservados exitosamente.");
+            this.Close();
+        }
+
+        private void ReservarAsiento(string fila, int numeroAsiento)
+        {
+            try
+            {
+                string cnn = ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
+                using (SqlConnection conexion = new SqlConnection(cnn))
+                {
+                    conexion.Open();
+                    using (SqlCommand cmd = new SqlCommand("ups_reservar_asiento", conexion))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@usuario_id", usuarioId);
+                        cmd.Parameters.AddWithValue("@sesion_id", sesionId);
+                        cmd.Parameters.AddWithValue("@numero_asiento", numeroAsiento);
+                        cmd.Parameters.AddWithValue("@fila", fila);
+
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al reservar el asiento: " + ex.Message);
+            }
+        }
+
+        private void Asiento_Click(object sender, EventArgs e)
+        {
+            if (seleccionados < cantidad)
+            {
+                Button asiento = (Button)sender;
+                asiento.BackColor = Color.LightGreen;
+                asiento.Enabled = false; // Deshabilitar el asiento para evitar selección doble
+                seleccionados++;
+            }
+            else
+            {
+                MessageBox.Show("Ya has seleccionado la cantidad máxima de asientos.");
+            }
         }
     }
 }
