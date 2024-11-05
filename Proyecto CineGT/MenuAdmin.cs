@@ -36,9 +36,7 @@ namespace Proyecto_CineGT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*PreVenta preVenta = new PreVenta(usuarioId);
-            preVenta.Show();
-            this.Close();*/
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -50,7 +48,9 @@ namespace Proyecto_CineGT
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            NuevasSesiones ns = new NuevasSesiones(usuarioId);
+            ns.Show();
+            this.Close();
         }
 
         private void button7_Click(object sender, EventArgs e)
