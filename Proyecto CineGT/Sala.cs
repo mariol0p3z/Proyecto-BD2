@@ -37,9 +37,10 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            PreVenta preventa = new PreVenta(usuarioId);
+            //Comentado Temporal
+            /*PreVenta preventa = new PreVenta(usuarioId);
             preventa.Show();
-            this.Close();
+            this.Close();*/
         }
     }
 }

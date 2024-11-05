@@ -72,7 +72,7 @@ namespace Proyecto_CineGT
                         else
                         {
                             // Si la combinación es válida, abrir la ventana de Preventa
-                            PreVenta pv = new PreVenta(usuarioId);
+                            PreVenta pv = new PreVenta(usuarioId, sesionId);
                             pv.Show();
                             this.Close();
                         }
