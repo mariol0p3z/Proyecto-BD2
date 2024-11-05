@@ -258,9 +258,13 @@
     <EmbeddedResource Include="RegistroUser.resx">
       <DependentUpon>RegistroUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\ReporteLogSesion.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteLogTransaccion.rdlc" />
     <EmbeddedResource Include="Reportes\ReportePeliculas.rdlc" />
     <EmbeddedResource Include="Reportes\ReportePorcentaje.rdlc" />
     <EmbeddedResource Include="Reportes\ReporteSalas.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteSesiones.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteTransacciones.rdlc" />
     <EmbeddedResource Include="Sala.resx">
       <DependentUpon>Sala.cs</DependentUpon>
     </EmbeddedResource>
