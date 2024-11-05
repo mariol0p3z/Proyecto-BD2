@@ -46,7 +46,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1200, 122);
+            this.label1.Size = new System.Drawing.Size(871, 122);
             this.label1.TabIndex = 0;
             // 
             // panel1
@@ -56,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1200, 196);
+            this.panel1.Size = new System.Drawing.Size(871, 196);
             this.panel1.TabIndex = 1;
             // 
             // comboBox1
@@ -70,7 +70,7 @@
             "Top 5 peliculas con mayor promedio de asientos vendidos",
             "Log de Transacciones",
             "Log de Sesiones"});
-            this.comboBox1.Location = new System.Drawing.Point(377, 135);
+            this.comboBox1.Location = new System.Drawing.Point(224, 137);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(449, 24);
             this.comboBox1.TabIndex = 1;
@@ -82,7 +82,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1200, 100);
+            this.panel2.Size = new System.Drawing.Size(871, 100);
             this.panel2.TabIndex = 0;
             // 
             // panelReportes
@@ -90,7 +90,7 @@
             this.panelReportes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelReportes.Location = new System.Drawing.Point(0, 196);
             this.panelReportes.Name = "panelReportes";
-            this.panelReportes.Size = new System.Drawing.Size(1200, 471);
+            this.panelReportes.Size = new System.Drawing.Size(871, 471);
             this.panelReportes.TabIndex = 2;
             // 
             // Reportes
@@ -98,7 +98,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1200, 667);
+            this.ClientSize = new System.Drawing.Size(871, 667);
             this.Controls.Add(this.panelReportes);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);

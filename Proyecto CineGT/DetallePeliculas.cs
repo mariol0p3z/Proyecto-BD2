@@ -19,6 +19,8 @@ namespace Proyecto_CineGT
 
         private void DetallePeliculas_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'dataSetTop5.fn_Top5' table. You can move, or remove it, as needed.
+            this.fn_Top5TableAdapter.Fill(this.dataSetTop5.fn_Top5);
 
             this.reportViewer1.RefreshReport();
         }
