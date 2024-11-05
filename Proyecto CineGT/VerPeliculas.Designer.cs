@@ -190,7 +190,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "VerPeliculas";
             this.Text = "VerPeliculas";
-            this.Load += new System.EventHandler(this.VerPeliculas_Load);
+ 
             this.ResumeLayout(false);
             this.PerformLayout();
 
