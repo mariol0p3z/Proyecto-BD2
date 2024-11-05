@@ -51,7 +51,6 @@ C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto Cine
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CancelacionBoletos.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CineGT.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Historial.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuUser.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources
@@ -118,3 +117,11 @@ C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\pt\Microsoft.
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleAsientos.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetallePeliculas.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleSala.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleSesiones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleTransacciones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogSesiones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogTransacciones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources

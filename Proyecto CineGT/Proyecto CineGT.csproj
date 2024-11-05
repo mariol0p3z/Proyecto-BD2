@@ -83,11 +83,53 @@
     <Compile Include="CineGT.Designer.cs">
       <DependentUpon>CineGT.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetalleAsientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleAsientos.Designer.cs">
+      <DependentUpon>DetalleAsientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetallePeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallePeliculas.Designer.cs">
+      <DependentUpon>DetallePeliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleSala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleSala.Designer.cs">
+      <DependentUpon>DetalleSala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleSesiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleSesiones.Designer.cs">
+      <DependentUpon>DetalleSesiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleTransacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleTransacciones.Designer.cs">
+      <DependentUpon>DetalleTransacciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="EdicionBoletos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EdicionBoletos.Designer.cs">
       <DependentUpon>EdicionBoletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogSesiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogSesiones.Designer.cs">
+      <DependentUpon>LogSesiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogTransacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogTransacciones.Designer.cs">
+      <DependentUpon>LogTransacciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes.cs">
       <SubType>Form</SubType>
@@ -152,8 +194,29 @@
     <EmbeddedResource Include="CineGT.resx">
       <DependentUpon>CineGT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DetalleAsientos.resx">
+      <DependentUpon>DetalleAsientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallePeliculas.resx">
+      <DependentUpon>DetallePeliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleSala.resx">
+      <DependentUpon>DetalleSala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleSesiones.resx">
+      <DependentUpon>DetalleSesiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleTransacciones.resx">
+      <DependentUpon>DetalleTransacciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EdicionBoletos.resx">
       <DependentUpon>EdicionBoletos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogSesiones.resx">
+      <DependentUpon>LogSesiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogTransacciones.resx">
+      <DependentUpon>LogTransacciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes.resx">
       <DependentUpon>Reportes.cs</DependentUpon>
@@ -226,6 +289,9 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reportes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
