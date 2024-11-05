@@ -29,7 +29,7 @@ namespace Proyecto_CineGT
             form.Show();
         }
 
-        /*private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string reporteSeleccionado = comboBox1.SelectedItem.ToString();
             Form form = ObtenerFormularioSeleccionado(reporteSeleccionado);
@@ -65,7 +65,7 @@ namespace Proyecto_CineGT
                 default:
                     return null;
             }
-        }*/
+        }
 
         private void Reportes_Load(object sender, EventArgs e)
         {
