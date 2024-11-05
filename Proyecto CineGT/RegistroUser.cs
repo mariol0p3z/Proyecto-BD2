@@ -38,16 +38,15 @@ namespace Proyecto_CineGT
                     conexion.Open();
                     if(txtPassword.Text == txtConfirmarPass.Text)
                     {
-                        using(SqlCommand cmd = new SqlCommand("sp_insertar_usuario", conexion))
+                        using(SqlCommand cmd = new SqlCommand("sp_InsertarUsuario", conexion))
                         {
                             cmd.CommandType = CommandType.StoredProcedure;
                             byte[] passwordhashed = CifrarSha256(txtPassword.Text);
-                            cmd.Parameters.AddWithValue("@primerNombre", txtPrimerNombre.Text);
+                            cmd.Parameters.AddWithValue("@nombre", txtPrimerNombre.Text);
                             cmd.Parameters.AddWithValue("@segundoNombre", txtSegundoNombre.Text);
-                            cmd.Parameters.AddWithValue("@primerApellido", txtPrimerApellido.Text);
+                            cmd.Parameters.AddWithValue("@apellido", txtPrimerApellido.Text);
                             cmd.Parameters.AddWithValue("@segundoApellido", txtSegundoApellido.Text);
-                            cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text);
-                            cmd.Parameters.AddWithValue("@rol", 0);
+                            cmd.Parameters.AddWithValue("@usuarioNombre", txtUsuario.Text);
                             cmd.Parameters.AddWithValue("@contraseña", passwordhashed);
                             
                             cmd.ExecuteNonQuery();
