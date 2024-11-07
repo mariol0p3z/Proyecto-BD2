@@ -29,21 +29,6 @@ namespace Proyecto_CineGT
             form.Show();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string reporteSeleccionado = comboBox1.SelectedItem.ToString();
-            Form form = ObtenerFormularioSeleccionado(reporteSeleccionado);
-
-            if (form != null)
-            {
-                MostrarFormPanel(form);
-            }
-            else
-            {
-                MessageBox.Show("No se encontro ningun reporte");
-            }
-        }
-
         private Form ObtenerFormularioSeleccionado(string form)
         {
             switch (form)
@@ -70,6 +55,21 @@ namespace Proyecto_CineGT
         private void Reportes_Load(object sender, EventArgs e)
         {
             comboBox1.SelectedIndex = 0;
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            string reporteSeleccionado = comboBox1.SelectedItem.ToString();
+            Form form = ObtenerFormularioSeleccionado(reporteSeleccionado);
+
+            if (form != null)
+            {
+                MostrarFormPanel(form);
+            }
+            else
+            {
+                MessageBox.Show("No se encontro ningun reporte");
+            }
         }
     }
 }
