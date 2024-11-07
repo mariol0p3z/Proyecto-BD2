@@ -16,11 +16,12 @@ namespace Proyecto_CineGT
     public partial class RegistroPeliculas : Form
     {
         private int usuarioId;
-
-        public RegistroPeliculas(int usuarioId)
+        private string rol;
+        public RegistroPeliculas(int usuarioId, string rol)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
+            this.rol = rol;
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
@@ -54,9 +55,18 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuAdmin menuser = new MenuAdmin(usuarioId);
-            menuser.Show();
-            this.Close();
+            if (rol == "admin")
+            {
+                MenuAdmin menuser = new MenuAdmin(usuarioId, rol);
+                menuser.Show();
+                this.Close();
+            }
+            else
+            {
+                MenuUser user = new MenuUser(usuarioId, rol);
+                user.Show();
+                this.Close();
+            }
         }
     }
 }

@@ -17,17 +17,18 @@ namespace Proyecto_CineGT
     {
         private int usuarioId;
         private int sesionId;
-
-        public PreVenta(int usuarioId, int sesionId)
+        private string rol;
+        public PreVenta(int usuarioId, int sesionId, string rol)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
             this.sesionId = sesionId;
+            this.rol = rol;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            VerPeliculas vp = new VerPeliculas(usuarioId);
+            VerPeliculas vp = new VerPeliculas(usuarioId, rol);
             vp.Show();
             this.Close();
         }
@@ -52,7 +53,7 @@ namespace Proyecto_CineGT
             string modo = cmbAsignar.SelectedItem.ToString();
 
             // Crear y abrir el formulario Sala con los parámetros
-            Sala sala = new Sala(usuarioId, sesionId, cantidad, modo);
+            Sala sala = new Sala(usuarioId, sesionId, cantidad, modo, rol);
             sala.Show();
             this.Close();
         }

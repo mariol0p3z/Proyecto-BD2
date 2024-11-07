@@ -17,20 +17,31 @@ namespace Proyecto_CineGT
     public partial class NuevasSesiones : Form
     {
         private int usuarioId;
-        public NuevasSesiones(int usuarioId)
+        private string rol;
+        public NuevasSesiones(int usuarioId, string rol)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
             cmbEstado.Items.Clear();
             cmbEstado.Items.Add("Activo");
             cmbEstado.Items.Add("Inactivo");
+            this.rol = rol;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuAdmin ma = new MenuAdmin(usuarioId);
-            ma.Show();
-            this.Close();
+            if (rol == "admin")
+            {
+                MenuAdmin ma = new MenuAdmin(usuarioId, rol);
+                ma.Show();
+                this.Close();
+            }
+            else
+            {
+                MenuUser user = new MenuUser(usuarioId, rol);
+                user.Show();
+                this.Close();
+            }
         }
 
         private void btnLoadCSV_Click(object sender, EventArgs e)

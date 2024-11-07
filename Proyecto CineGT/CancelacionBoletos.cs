@@ -13,10 +13,12 @@ namespace Proyecto_CineGT
     public partial class CancelacionBoletos : Form
     {
         private int usuarioId;
-        public CancelacionBoletos(int usuarioId)
+        private string rol;
+        public CancelacionBoletos(int usuarioId, string rol)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
+            this.rol = rol;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -26,9 +28,18 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuAdmin ma = new MenuAdmin(usuarioId);
-            ma.Show();
-            this.Close();
+            if (rol == "admin")
+            {
+                MenuAdmin ma = new MenuAdmin(usuarioId, rol);
+                ma.Show();
+                this.Close();
+            }
+            else
+            {
+                MenuUser user = new MenuUser(usuarioId, rol);
+                user.Show(); 
+                this.Close();
+            }
         }
     }
 }

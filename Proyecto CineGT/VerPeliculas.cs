@@ -15,17 +15,31 @@ namespace Proyecto_CineGT
     public partial class VerPeliculas : Form
     {
         private int usuarioId;
-        public VerPeliculas(int usuarioId)
+        private string rol;
+        public VerPeliculas(int usuarioId, string rol)
         {
             InitializeComponent();
             // comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged; // Comentado o eliminado
             comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             this.usuarioId = usuarioId;
+            this.rol = rol;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             //modificar para usuario y admin
+            if(rol == "admin")
+            {
+                MenuAdmin admin = new MenuAdmin(usuarioId, rol);
+                admin.Show();
+                this.Close();
+            }
+            else
+            {
+                MenuUser user = new MenuUser(usuarioId, rol);   
+                user.Show();
+                this.Close();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -72,7 +86,7 @@ namespace Proyecto_CineGT
                         else
                         {
                             // Si la combinación es válida, abrir la ventana de Preventa
-                            PreVenta pv = new PreVenta(usuarioId, sesionId);
+                            PreVenta pv = new PreVenta(usuarioId, sesionId, rol);
                             pv.Show();
                             this.Close();
                         }
