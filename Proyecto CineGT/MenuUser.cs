@@ -12,14 +12,16 @@ namespace Proyecto_CineGT
 {
     public partial class MenuUser : Form
     {
-        public MenuUser()
+        private int usuarioId;
+        public MenuUser(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RegistroPeliculas pelicula = new RegistroPeliculas();
+            RegistroPeliculas pelicula = new RegistroPeliculas(usuarioId);
             pelicula.Show();
         }
 
@@ -32,14 +34,14 @@ namespace Proyecto_CineGT
 
         private void button3_Click(object sender, EventArgs e)
         {
-            PreVenta preventa = new PreVenta();
+            /*PreVenta preventa = new PreVenta(usuarioId);
             preventa.Show();
-            this.Close();
+            this.Close();*/
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            VerPeliculas verpeliculas = new VerPeliculas();
+            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
             verpeliculas.Show();
             this.Close();
         }
@@ -58,7 +60,7 @@ namespace Proyecto_CineGT
 
         private void button5_Click(object sender, EventArgs e)
         {
-            CancelacionBoletos cancelarboletos = new CancelacionBoletos();
+            CancelacionBoletos cancelarboletos = new CancelacionBoletos(usuarioId);
             cancelarboletos.Show();
             this.Close();
         }
@@ -72,7 +74,7 @@ namespace Proyecto_CineGT
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            VerPeliculas verpeliculas = new VerPeliculas();
+            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
             verpeliculas.Show();
             this.Close();
         }

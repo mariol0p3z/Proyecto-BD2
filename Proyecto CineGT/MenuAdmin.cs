@@ -12,9 +12,12 @@ namespace Proyecto_CineGT
 {
     public partial class MenuAdmin : Form
     {
-        public MenuAdmin()
+        private int usuarioId;
+
+        public MenuAdmin(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId; 
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -26,28 +29,28 @@ namespace Proyecto_CineGT
 
         private void button6_Click(object sender, EventArgs e)
         {
-            VerPeliculas verpeliculas = new VerPeliculas();
+            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
             verpeliculas.Show();
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PreVenta preVenta = new PreVenta();
-            preVenta.Show();
-            this.Close();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            RegistroPeliculas rp = new RegistroPeliculas();
+            RegistroPeliculas rp = new RegistroPeliculas(usuarioId);
             rp.Show();
             this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            NuevasSesiones ns = new NuevasSesiones(usuarioId);
+            ns.Show();
+            this.Close();
         }
 
         private void button7_Click(object sender, EventArgs e)
