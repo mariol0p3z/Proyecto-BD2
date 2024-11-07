@@ -36,11 +36,6 @@ namespace Proyecto_CineGT
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             RegistroPeliculas rp = new RegistroPeliculas(usuarioId, rol);
@@ -59,6 +54,20 @@ namespace Proyecto_CineGT
         {
             Reportes rep = new Reportes();
             rep.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CancelacionBoletos cancelacion = new CancelacionBoletos(usuarioId, rol);
+            cancelacion.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EdicionBoletos edicion = new EdicionBoletos();
+            edicion.Show();
             this.Close();
         }
     }
