@@ -52,7 +52,8 @@ namespace Proyecto_CineGT
                 // En modo manual, agregar el evento Click a los botones de asientos
                 foreach (Button Asiento in this.Controls.OfType<Button>().Where(b => b.Tag?.ToString() == "Asiento"))
                 {
-                    Asiento.Click += Asiento_Click;
+                    Asiento.Click -= Asiento_Click; // Detach any existing handlers
+                    Asiento.Click += Asiento_Click; // Attach the handler once
                 }
             }
         }
@@ -255,6 +256,28 @@ namespace Proyecto_CineGT
             else
             {
                 MessageBox.Show("Ya has seleccionado la cantidad máxima de asientos.");
+            }
+        }
+
+        private void btnResetSelection_Click(object sender, EventArgs e)
+        {
+            if (modo == "Manual")
+            {
+                foreach (Control control in this.Controls)
+                {
+                    if (control is Button asiento && asiento.BackColor == Color.LightGreen)
+                    {
+                        asiento.BackColor = SystemColors.Control;
+                        asiento.Enabled = true;
+                    }
+                }
+
+                seleccionados = 0;
+                MessageBox.Show("Selección de asientos reiniciada. Puede volver a elegir los asientos.", "Selección reiniciada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Error, no es posible resetear en modo Automático, únicamente en modo Manual", "Selección reiniciada", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
     }
