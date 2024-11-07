@@ -53,7 +53,7 @@ namespace Proyecto_CineGT
 
         private void button4_Click(object sender, EventArgs e)
         {
-            EdicionBoletos edicionboletos = new EdicionBoletos();
+            EdicionBoletos edicionboletos = new EdicionBoletos(usuarioId);
             edicionboletos.Show();
             this.Close();
         }

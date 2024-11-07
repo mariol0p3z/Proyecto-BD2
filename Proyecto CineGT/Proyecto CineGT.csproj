@@ -71,6 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CambioAsiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambioAsiento.Designer.cs">
+      <DependentUpon>CambioAsiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="CancelacionBoletos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +196,7 @@
     <Compile Include="RegistroUser.Designer.cs">
       <DependentUpon>RegistroUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReservaDetalle.cs" />
     <Compile Include="Sala.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,6 +210,9 @@
     <Compile Include="VerPeliculas.Designer.cs">
       <DependentUpon>VerPeliculas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CambioAsiento.resx">
+      <DependentUpon>CambioAsiento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CancelacionBoletos.resx">
       <DependentUpon>CancelacionBoletos.cs</DependentUpon>
     </EmbeddedResource>

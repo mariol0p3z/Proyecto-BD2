@@ -210,3 +210,4 @@ C:\Users\ojort\OneDrive\Documentos\GitHub\Proyecto-BD2\Proyecto CineGT\bin\Debug
 C:\Users\ojort\OneDrive\Documentos\GitHub\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\ojort\OneDrive\Documentos\GitHub\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\ojort\OneDrive\Documentos\GitHub\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto.44A0E568.Up2Date
+C:\Users\ojort\OneDrive\Documentos\GitHub\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CambioAsiento.resources
