@@ -19,8 +19,8 @@ namespace Proyecto_CineGT
         private int cantidad;
         private string modo;
         private int seleccionados = 0; // Contador de asientos seleccionados
-
-        public Sala(int usuarioId, int sesionId, int cantidad, string modo)
+        private string rol;
+        public Sala(int usuarioId, int sesionId, int cantidad, string modo, string rol)
         {
             InitializeComponent();
             this.Load += Sala_Load; // Asocia el evento Load con el método Sala_Load
@@ -28,6 +28,7 @@ namespace Proyecto_CineGT
             this.sesionId = sesionId;
             this.cantidad = cantidad;
             this.modo = modo;
+            this.rol = rol;
         }
         //genera tablero 
         private void Sala_Load(object sender, EventArgs e)
@@ -198,7 +199,7 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            PreVenta preventa = new PreVenta(usuarioId, sesionId);
+            PreVenta preventa = new PreVenta(usuarioId, sesionId, rol);
             preventa.Show();
             this.Close();
         }

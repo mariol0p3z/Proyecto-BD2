@@ -13,11 +13,13 @@ namespace Proyecto_CineGT
     public partial class MenuAdmin : Form
     {
         private int usuarioId;
+        private string rol;
 
-        public MenuAdmin(int usuarioId)
+        public MenuAdmin(int usuarioId, string rol)
         {
             InitializeComponent();
-            this.usuarioId = usuarioId; 
+            this.usuarioId = usuarioId;
+            this.rol = rol;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -29,26 +31,21 @@ namespace Proyecto_CineGT
 
         private void button6_Click(object sender, EventArgs e)
         {
-            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
+            VerPeliculas verpeliculas = new VerPeliculas(usuarioId, rol);
             verpeliculas.Show();
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
-            RegistroPeliculas rp = new RegistroPeliculas(usuarioId);
+            RegistroPeliculas rp = new RegistroPeliculas(usuarioId, rol);
             rp.Show();
             this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            NuevasSesiones ns = new NuevasSesiones(usuarioId);
+            NuevasSesiones ns = new NuevasSesiones(usuarioId, rol);
             ns.Show();
             this.Close();
         }
@@ -57,6 +54,20 @@ namespace Proyecto_CineGT
         {
             Reportes rep = new Reportes();
             rep.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CancelacionBoletos cancelacion = new CancelacionBoletos(usuarioId, rol);
+            cancelacion.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EdicionBoletos edicion = new EdicionBoletos();
+            edicion.Show();
             this.Close();
         }
     }

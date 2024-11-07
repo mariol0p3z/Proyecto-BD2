@@ -13,36 +13,18 @@ namespace Proyecto_CineGT
     public partial class MenuUser : Form
     {
         private int usuarioId;
-        public MenuUser(int usuarioId)
+        private string rol;
+        public MenuUser(int usuarioId, string rol)
         {
             InitializeComponent();
             this.usuarioId = usuarioId;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            RegistroPeliculas pelicula = new RegistroPeliculas(usuarioId);
-            pelicula.Show();
+            this.rol = rol;
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
             CineGT cine = new CineGT();
             cine.Show();
-            this.Close();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            /*PreVenta preventa = new PreVenta(usuarioId);
-            preventa.Show();
-            this.Close();*/
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
-            verpeliculas.Show();
             this.Close();
         }
 
@@ -60,21 +42,15 @@ namespace Proyecto_CineGT
 
         private void button5_Click(object sender, EventArgs e)
         {
-            CancelacionBoletos cancelarboletos = new CancelacionBoletos(usuarioId);
+            CancelacionBoletos cancelarboletos = new CancelacionBoletos(usuarioId, rol);
             cancelarboletos.Show();
             this.Close();
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Reportes historial = new Reportes();
-            historial.Show();
-            this.Close();
-        }
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            VerPeliculas verpeliculas = new VerPeliculas(usuarioId);
+            VerPeliculas verpeliculas = new VerPeliculas(usuarioId, rol);
             verpeliculas.Show();
             this.Close();
         }

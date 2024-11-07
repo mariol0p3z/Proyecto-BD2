@@ -51,12 +51,12 @@ namespace Proyecto_CineGT
                             MessageBox.Show("Bienvenido " + txtUsuario.Text, "Login Exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             if (rol == "admin")
                             {
-                                MenuAdmin admin = new MenuAdmin(usuarioId);
+                                MenuAdmin admin = new MenuAdmin(usuarioId, rol);
                                 admin.Show();
                             }
                             else
                             {
-                                MenuUser user = new MenuUser(usuarioId);
+                                MenuUser user = new MenuUser(usuarioId, rol);
                                 user.Show();
                             }
                             this.Hide();
