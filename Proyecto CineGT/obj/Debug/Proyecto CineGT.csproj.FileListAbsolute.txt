@@ -39,43 +39,26 @@ C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Pr
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
 C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe.config
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.pdb
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.dll
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.xml
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.xml
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.AssemblyReference.cache
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CancelacionBoletos.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CineGT.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuUser.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.PreVenta.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Properties.Resources.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroPeliculas.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroUser.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Sala.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.VerPeliculas.resources
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.GenerateResource.cache
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CoreCompileInputs.cache
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CopyComplete
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.exe
-C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.pdb
+C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\SqlServerTypes\x64\msvcr120.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\SqlServerTypes\x86\msvcr120.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe.config
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.exe
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Proyecto CineGT.pdb
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.ReportViewer.Design.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\EnvDTE.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\stdole.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\System.Data.SqlClient.xml
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
@@ -116,12 +99,29 @@ C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\pt\Microsoft.
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.AssemblyReference.cache
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CancelacionBoletos.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.CineGT.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleAsientos.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetallePeliculas.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleSala.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleSesiones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.DetalleTransacciones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.EdicionBoletos.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogSesiones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.LogTransacciones.resources
 C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources
-C:\Users\driva\OneDrive - Universidad Rafael Landivar\Escritorio\ProyectoBDII\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Reportes.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuAdmin.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.MenuUser.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.NuevasSesiones.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.PreVenta.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Properties.Resources.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroPeliculas.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.RegistroUser.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.Sala.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto_CineGT.VerPeliculas.resources
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.GenerateResource.cache
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CoreCompileInputs.cache
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.csproj.CopyComplete
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.exe
+C:\Users\maron\source\repos\Proyecto-BD2\Proyecto CineGT\obj\Debug\Proyecto CineGT.pdb

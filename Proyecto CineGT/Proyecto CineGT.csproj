@@ -98,6 +98,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSetTop5.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DataSourceListaSesiones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSourceListaSesiones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSourceListaTransacciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSourceListaTransacciones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSourceLogSesiones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSourceLogSesiones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSourceLogTransacciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSourceLogTransacciones.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DetalleAsientos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -303,6 +323,50 @@
     </None>
     <None Include="DataSetTop5.xss">
       <DependentUpon>DataSetTop5.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceListaSesiones.xsc">
+      <DependentUpon>DataSourceListaSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceListaSesiones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSourceListaSesiones.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSourceListaSesiones.xss">
+      <DependentUpon>DataSourceListaSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceListaTransacciones.xsc">
+      <DependentUpon>DataSourceListaTransacciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceListaTransacciones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSourceListaTransacciones.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSourceListaTransacciones.xss">
+      <DependentUpon>DataSourceListaTransacciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceLogSesiones.xsc">
+      <DependentUpon>DataSourceLogSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceLogSesiones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSourceLogSesiones.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSourceLogSesiones.xss">
+      <DependentUpon>DataSourceLogSesiones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceLogTransacciones.xsc">
+      <DependentUpon>DataSourceLogTransacciones.xsd</DependentUpon>
+    </None>
+    <None Include="DataSourceLogTransacciones.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSourceLogTransacciones.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSourceLogTransacciones.xss">
+      <DependentUpon>DataSourceLogTransacciones.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

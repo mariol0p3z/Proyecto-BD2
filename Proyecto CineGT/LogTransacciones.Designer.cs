@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.fnLogTransaccionBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSourceLogTransacciones = new Proyecto_CineGT.DataSourceLogTransacciones();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnReporte = new System.Windows.Forms.Button();
             this.txtFechaFin = new System.Windows.Forms.DateTimePicker();
@@ -35,8 +38,21 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtFechaInicio = new System.Windows.Forms.DateTimePicker();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.fn_LogTransaccionTableAdapter = new Proyecto_CineGT.DataSourceLogTransaccionesTableAdapters.fn_LogTransaccionTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.fnLogTransaccionBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSourceLogTransacciones)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // fnLogTransaccionBindingSource
+            // 
+            this.fnLogTransaccionBindingSource.DataMember = "fn_LogTransaccion";
+            this.fnLogTransaccionBindingSource.DataSource = this.dataSourceLogTransacciones;
+            // 
+            // dataSourceLogTransacciones
+            // 
+            this.dataSourceLogTransacciones.DataSetName = "DataSourceLogTransacciones";
+            this.dataSourceLogTransacciones.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // panel1
             // 
@@ -100,11 +116,16 @@
             // reportViewer1
             // 
             this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_CineGT.Reportes.ReporteLogTransaccion.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 73);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(746, 377);
             this.reportViewer1.TabIndex = 3;
+            // 
+            // fn_LogTransaccionTableAdapter
+            // 
+            this.fn_LogTransaccionTableAdapter.ClearBeforeFill = true;
             // 
             // LogTransacciones
             // 
@@ -115,6 +136,9 @@
             this.Controls.Add(this.panel1);
             this.Name = "LogTransacciones";
             this.Text = "LogTransacciones";
+            this.Load += new System.EventHandler(this.LogTransacciones_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.fnLogTransaccionBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSourceLogTransacciones)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -130,5 +154,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker txtFechaInicio;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource fnLogTransaccionBindingSource;
+        private DataSourceLogTransacciones dataSourceLogTransacciones;
+        private DataSourceLogTransaccionesTableAdapters.fn_LogTransaccionTableAdapter fn_LogTransaccionTableAdapter;
     }
 }
