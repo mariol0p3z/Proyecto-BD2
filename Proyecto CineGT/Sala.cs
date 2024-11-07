@@ -216,6 +216,8 @@ namespace Proyecto_CineGT
 
             MessageBox.Show("Asientos reservados exitosamente.");
             this.Close();
+            CineGT cineGT = new CineGT();
+            cineGT.Show();
         }
 
         private void ReservarAsiento(string fila, int numeroAsiento)

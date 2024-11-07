@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuUser));
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnModificarB = new System.Windows.Forms.Button();
+            this.btnAnularB = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -47,29 +47,29 @@
             this.label1.Size = new System.Drawing.Size(1033, 187);
             this.label1.TabIndex = 1;
             // 
-            // button3
+            // btnModificarB
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(785, 222);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 64);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "MODIFICAR BOLETOS";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button4_Click);
+            this.btnModificarB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificarB.Location = new System.Drawing.Point(785, 222);
+            this.btnModificarB.Margin = new System.Windows.Forms.Padding(4);
+            this.btnModificarB.Name = "btnModificarB";
+            this.btnModificarB.Size = new System.Drawing.Size(160, 64);
+            this.btnModificarB.TabIndex = 4;
+            this.btnModificarB.Text = "MODIFICAR BOLETOS";
+            this.btnModificarB.UseVisualStyleBackColor = true;
+            this.btnModificarB.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button2
+            // btnAnularB
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(541, 222);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 64);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "CANCELACIÓN DE BOLETOS";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button5_Click);
+            this.btnAnularB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnularB.Location = new System.Drawing.Point(541, 222);
+            this.btnAnularB.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAnularB.Name = "btnAnularB";
+            this.btnAnularB.Size = new System.Drawing.Size(172, 64);
+            this.btnAnularB.TabIndex = 5;
+            this.btnAnularB.Text = "CANCELACIÓN DE BOLETOS";
+            this.btnAnularB.UseVisualStyleBackColor = true;
+            this.btnAnularB.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnRegresar
             // 
@@ -86,7 +86,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(313, 222);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(172, 64);
             this.button4.TabIndex = 12;
@@ -102,8 +102,8 @@
             this.ClientSize = new System.Drawing.Size(1177, 439);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnRegresar);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnAnularB);
+            this.Controls.Add(this.btnModificarB);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -117,8 +117,8 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnModificarB;
+        private System.Windows.Forms.Button btnAnularB;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Button button4;
     }
