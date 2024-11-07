@@ -97,6 +97,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtCantMax = new System.Windows.Forms.TextBox();
             this.lblModo = new System.Windows.Forms.Label();
+            this.btnResetSelection = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label2
@@ -151,7 +152,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(676, 306);
+            this.label4.Location = new System.Drawing.Point(676, 319);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(123, 25);
@@ -171,10 +172,10 @@
             // btnSeleccionar
             // 
             this.btnSeleccionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionar.Location = new System.Drawing.Point(681, 857);
+            this.btnSeleccionar.Location = new System.Drawing.Point(1148, 531);
             this.btnSeleccionar.Margin = new System.Windows.Forms.Padding(4);
             this.btnSeleccionar.Name = "btnSeleccionar";
-            this.btnSeleccionar.Size = new System.Drawing.Size(131, 36);
+            this.btnSeleccionar.Size = new System.Drawing.Size(176, 57);
             this.btnSeleccionar.TabIndex = 7;
             this.btnSeleccionar.Text = "SELECCIONAR";
             this.btnSeleccionar.UseVisualStyleBackColor = true;
@@ -183,7 +184,7 @@
             // btnRegresar
             // 
             this.btnRegresar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegresar.Image")));
-            this.btnRegresar.Location = new System.Drawing.Point(1321, 850);
+            this.btnRegresar.Location = new System.Drawing.Point(1204, 607);
             this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(80, 43);
@@ -543,10 +544,10 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Black;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(375, 774);
+            this.label5.Location = new System.Drawing.Point(328, 774);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(712, 34);
+            this.label5.Size = new System.Drawing.Size(802, 34);
             this.label5.TabIndex = 75;
             // 
             // E9
@@ -909,12 +910,25 @@
             this.lblModo.TabIndex = 105;
             this.lblModo.Text = "MODO DE ASIGNAR";
             // 
+            // btnResetSelection
+            // 
+            this.btnResetSelection.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResetSelection.Location = new System.Drawing.Point(1148, 442);
+            this.btnResetSelection.Margin = new System.Windows.Forms.Padding(4);
+            this.btnResetSelection.Name = "btnResetSelection";
+            this.btnResetSelection.Size = new System.Drawing.Size(176, 57);
+            this.btnResetSelection.TabIndex = 106;
+            this.btnResetSelection.Text = "RESETEAR";
+            this.btnResetSelection.UseVisualStyleBackColor = true;
+            this.btnResetSelection.Click += new System.EventHandler(this.btnResetSelection_Click);
+            // 
             // Sala
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1416, 907);
+            this.ClientSize = new System.Drawing.Size(1416, 946);
+            this.Controls.Add(this.btnResetSelection);
             this.Controls.Add(this.lblModo);
             this.Controls.Add(this.txtCantMax);
             this.Controls.Add(this.label6);
@@ -983,7 +997,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Sala";
             this.Text = "VentaBoletosSala";
@@ -1063,5 +1078,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtCantMax;
         private System.Windows.Forms.Label lblModo;
+        private System.Windows.Forms.Button btnResetSelection;
     }
 }
