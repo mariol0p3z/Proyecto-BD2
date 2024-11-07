@@ -12,11 +12,15 @@ using System.Configuration;
 
 namespace Proyecto_CineGT
 {
+
     public partial class RegistroPeliculas : Form
     {
-        public RegistroPeliculas()
+        private int usuarioId;
+
+        public RegistroPeliculas(int usuarioId)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
         }
 
         private void btnRegistro_Click(object sender, EventArgs e)
@@ -50,7 +54,7 @@ namespace Proyecto_CineGT
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            MenuAdmin menuser = new MenuAdmin();
+            MenuAdmin menuser = new MenuAdmin(usuarioId);
             menuser.Show();
             this.Close();
         }
