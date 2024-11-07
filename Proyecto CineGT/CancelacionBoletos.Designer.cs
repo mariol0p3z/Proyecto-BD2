@@ -48,7 +48,7 @@
             this.label1.Location = new System.Drawing.Point(76, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(943, 233);
+            this.label1.Size = new System.Drawing.Size(943, 279);
             this.label1.TabIndex = 0;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -66,7 +66,7 @@
             // btnRegresar
             // 
             this.btnRegresar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegresar.Image")));
-            this.btnRegresar.Location = new System.Drawing.Point(972, 507);
+            this.btnRegresar.Location = new System.Drawing.Point(972, 581);
             this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(80, 43);
@@ -77,7 +77,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Unispace", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(713, 388);
+            this.button1.Location = new System.Drawing.Point(713, 462);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 54);
@@ -89,7 +89,7 @@
             // listaReservaUsuario
             // 
             this.listaReservaUsuario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.listaReservaUsuario.Location = new System.Drawing.Point(28, 266);
+            this.listaReservaUsuario.Location = new System.Drawing.Point(25, 325);
             this.listaReservaUsuario.Name = "listaReservaUsuario";
             this.listaReservaUsuario.RowHeadersWidth = 51;
             this.listaReservaUsuario.RowTemplate.Height = 24;
@@ -103,7 +103,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(592, 270);
+            this.label7.Location = new System.Drawing.Point(592, 344);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(143, 25);
@@ -112,7 +112,7 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(826, 270);
+            this.txtUsuario.Location = new System.Drawing.Point(826, 344);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(167, 22);
@@ -124,7 +124,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(592, 325);
+            this.label2.Location = new System.Drawing.Point(592, 399);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(204, 25);
@@ -134,7 +134,7 @@
             // 
             // txtTransaccion
             // 
-            this.txtTransaccion.Location = new System.Drawing.Point(826, 325);
+            this.txtTransaccion.Location = new System.Drawing.Point(826, 399);
             this.txtTransaccion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTransaccion.Name = "txtTransaccion";
             this.txtTransaccion.Size = new System.Drawing.Size(167, 22);
@@ -145,7 +145,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1067, 564);
+            this.ClientSize = new System.Drawing.Size(1067, 635);
             this.Controls.Add(this.txtTransaccion);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUsuario);
@@ -155,7 +155,7 @@
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CancelacionBoletos";
             this.Text = "CancelacionBoletos";
             ((System.ComponentModel.ISupportInitialize)(this.listaReservaUsuario)).EndInit();
