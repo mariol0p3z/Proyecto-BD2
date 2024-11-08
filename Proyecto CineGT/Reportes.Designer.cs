@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reportes));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelReportes = new System.Windows.Forms.Panel();
@@ -51,6 +52,8 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.btnRegresar);
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -58,6 +61,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(871, 196);
             this.panel1.TabIndex = 1;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Image = ((System.Drawing.Image)(resources.GetObject("btnRegresar.Image")));
+            this.btnRegresar.Location = new System.Drawing.Point(763, 127);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(80, 43);
+            this.btnRegresar.TabIndex = 13;
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // comboBox1
             // 
@@ -70,7 +84,7 @@
             "Top 5 peliculas con mayor promedio de asientos vendidos",
             "Log de Transacciones",
             "Log de Sesiones"});
-            this.comboBox1.Location = new System.Drawing.Point(224, 137);
+            this.comboBox1.Location = new System.Drawing.Point(194, 137);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(449, 24);
             this.comboBox1.TabIndex = 1;
@@ -118,5 +132,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panelReportes;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

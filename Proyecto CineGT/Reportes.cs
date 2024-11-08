@@ -12,9 +12,13 @@ namespace Proyecto_CineGT
 {
     public partial class Reportes : Form
     {
-        public Reportes()
+        private int usuarioId;
+        private string rol;
+        public Reportes(int usuarioId, string rol)
         {
             InitializeComponent();
+            this.usuarioId = usuarioId;
+            this.rol = rol;
         }
 
         private void MostrarFormPanel(Form form)
@@ -69,6 +73,22 @@ namespace Proyecto_CineGT
             else
             {
                 MessageBox.Show("No se encontro ningun reporte");
+            }
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            if (rol == "admin")
+            {
+                MenuAdmin ma = new MenuAdmin(usuarioId, rol);
+                ma.Show();
+                this.Close();
+            }
+            else
+            {
+                MenuUser user = new MenuUser(usuarioId, rol);
+                user.Show();
+                this.Close();
             }
         }
     }
